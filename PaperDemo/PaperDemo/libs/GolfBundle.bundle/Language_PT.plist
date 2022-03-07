@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserCon</key>
+	<string>Confirmar</string>
+	<key>UserPri</key>
+	<string>Política de Privacidade</string>
+	<key>UserAg</key>
+	<string>Acordo do Usuário</string>
+	<key>errorNetWork</key>
+	<string>Erro de conexão, verifique a rua rede e tente novamente.</string>
+	<key>phoneBind</key>
+	<string>Já vinculou um número de telefone</string>
+	<key>sendSuccess</key>
+	<string>Código enviado com sucesso</string>
+	<key>codeNil</key>
+	<string>O código não pode esar em branco/Insira corretamente o código</string>
+	<key>phoneNil</key>
+	<string>O telefone não pode estar em branco/Insira corretamente telefone</string>
+	<key>phoneBack</key>
+	<string>Voltar</string>
+	<key>phoneSure</key>
+	<string>Confirmar</string>
+	<key>enterCode</key>
+	<string>Código de verificação</string>
+	<key>getCode</key>
+	<string>Enviar</string>
+	<key>enterPhone</key>
+	<string>Número de telefone</string>
+	<key>chooseCou</key>
+	<string>Selecionar o país</string>
+	<key>bindPhone</key>
+	<string>Verificação</string>
+	<key>lan_change</key>
+	<string>Deseja mesmo alterar o idioma?</string>
+	<key>UserFB</key>
+	<string>Facebook</string>
+	<key>lan_th</key>
+	<string>Confirmar a seleção do idioma em Tailandês?</string>
+	<key>lan_ru</key>
+	<string>Confirmar a seleção do idioma em Russo?</string>
+	<key>lan_pt</key>
+	<string>Confirmar a seleção do idioma em Português?</string>
+	<key>lan_ko</key>
+	<string>Confirmar a seleção do idioma em Coreano?</string>
+	<key>lan_ja</key>
+	<string>Confirmar a seleção do idioma em Japonês?</string>
+	<key>lan_id</key>
+	<string>Confirmar a seleção do idioma em Indonésio?</string>
+	<key>lan_hk</key>
+	<string>Confirmar a seleção do idioma em Chinês (tradicional)?</string>
+	<key>lan_es</key>
+	<string>Confirmar a seleção do idioma em Espanhol?</string>
+	<key>lan_en</key>
+	<string>Confirmar a seleção do idioma em Inglês?</string>
+	<key>lan_ar</key>
+	<string>Confirmar a seleção do idioma em Árabe?</string>
+	<key>lan_cancle</key>
+	<string>Cancelar</string>
+	<key>lan_sure</key>
+	<string>Confirmar</string>
+	<key>TitleMsg</key>
+	<string>Selecionar idioma</string>
+	<key>Tip</key>
+	<string>Aviso</string>
+	<key>PaySuccess</key>
+	<string>Compra sucedida</string>
+	<key>PayFail</key>
+	<string>Falha na compra</string>
+	<key>ValidationError</key>
+	<string>Erro de verificação</string>
+	<key>UserCancle</key>
+	<string>Usuário cancelou o pedido de permissão</string>
+	<key>AuthorizationFailure</key>
+	<string>Falha na permissão</string>
+	<key>NORequest</key>
+	<string>Pedido de permissão sem resposta</string>
+	<key>NOAnswer</key>
+	<string>Incapaz de processar o pedido de permissão</string>
+	<key>NOReason</key>
+	<string>Erro desconhecido na falha do pedido de permissão</string>
+	<key>NetWorkError</key>
+	<string>Erro de conexão</string>
+	<key>UserEmpty</key>
+	<string>Usuário ou senha não foi inserida</string>
+	<key>Agreement</key>
+	<string>Protocolo de utilização</string>
+	<key>Provision</key>
+	<string>Necessita ler e aceitar os Termos de Uso para utilizar o aplicativo</string>
+	<key>Disagree</key>
+	<string>Recusar</string>
+	<key>Agree</key>
+	<string>Aceitar</string>
+	<key>MsgProvision</key>
+	<string>Após o login, o perfil do personagem do jogo será substituído pelo perfil do personagem do jogo da conta logada.</string>
+	<key>Sure</key>
+	<string>Confirmar</string>
+	<key>LoginMode</key>
+	<string>* Selecione a forma de login.
+*Depois de entrar em outras contas vinculadas, a conta original será desconectada.</string>
+	<key>LineLogin</key>
+	<string>Entrar com LINE</string>
+	<key>UserLogin</key>
+	<string>Conta Eyou</string>
+	<key>Register</key>
+	<string>Criar conta</string>
+	<key>Error</key>
+	<string>Erro</string>
+	<key>LoginSuccess</key>
+	<string>Login sucedido</string>
+	<key>Close</key>
+	<string>Fechar</string>
+	<key>EnterAccount</key>
+	<string>Inserir usuário</string>
+	<key>EnterPassword</key>
+	<string>Inserir senha</string>
+	<key>Login</key>
+	<string>Entrar</string>
+	<key>ForgetPw</key>
+	<string>Esqueceu sua senha?</string>
+	<key>AccountMsg</key>
+	<string>Dados da conta</string>
+	<key>CurrentAccount</key>
+	<string>Conta atual</string>
+	<key>LoginAccount</key>
+	<string>Entrar na conta</string>
+	<key>ChangeMsg</key>
+	<string>O perfil do personagem será substituído pelo personagem da conta de login, deseja continuar?
+</string>
+	<key>Cancle</key>
+	<string>Cancelar</string>
+	<key>BeSure</key>
+	<string>Confirmar</string>
+	<key>AccountSame</key>
+	<string>Conta igual a conta atual</string>
+	<key>Sent</key>
+	<string>Sair</string>
+	<key>HaveSent</key>
+	<string>Senha nova já foi enviado para o seu e-mail cadastrado</string>
+	<key>DoLater</key>
+	<string>Tente mais tarde</string>
+	<key>Inexistence</key>
+	<string>Conta não encontrada</string>
+	<key>AccountWarning</key>
+	<string>A conta contém caracteres ïnvlidos</string>
+	<key>EmailError1</key>
+	<string>Erro no e-mail inserido</string>
+	<key>EmailError2</key>
+	<string>E-mail fornecido não correspondem ao registro</string>
+	<key>ConnectError</key>
+	<string>Erro de conexão</string>
+	<key>EmailAgain</key>
+	<string>Confirmar o  e-mail</string>
+	<key>BindAccount</key>
+	<string>Vinculação de Conta</string>
+	<key>BindDone</key>
+	<string>Vinculação de conta concluída</string>
+	<key>PwAgain</key>
+	<string>Confirmar a senha</string>
+	<key>EnterEmail</key>
+	<string>Inserir endereço de email</string>
+	<key>PwAgainError</key>
+	<string>As senhas não correspondem</string>
+	<key>Warning</key>
+	<string>Atenção</string>
+	<key>BindMsg</key>
+	<string> Após a vinculação com Apple ID, Facebook, ou conta Eyou, você pode transferir as informações do personagem do jogo em uma conta e poderá acessar em qualquer outro dispositivo. Em outro dispositivo clique no botão de login no canto da tela de login para acessar a conta vinculada.
+Em caso de perda de senha da conta Eyou, ela será enviada para o seu endereço de email, portanto, certifique-se de digitar o email correto.</string>
+	<key>AgeLimit</key>
+	<string>Idade limite de compra</string>
+	<key>AgeMsg</key>
+	<string>Jogadores menores de idade devem obter o consentimento dos responsáveis antes de efetuar a compra para adquirir os produtos do jogo.</string>
+	<key>NewAccountMsg</key>
+	<string>Depois de criar uma nova conta, a conta original será desconectada.
+Caso a conta original não for vinculada, ela será perdida.</string>
+	<key>NewAccountDone</key>
+	<string>Conta criada com sucesso</string>
+	<key>NoAds</key>
+	<string>Sem anúncio disponível</string>
+	<key>GetFail</key>
+	<string>Falha na obtenção</string>
+	<key>News</key>
+	<string>Novo</string>
+	<key>Activity</key>
+	<string>Evento</string>
+	<key>System</key>
+	<string>Sistema</string>
+	<key>NotToady</key>
+	<string>Não mostrar mais hoje</string>
+	<key>Detail</key>
+	<string>Detalhes</string>
+	<key>Sun</key>
+	<string>Domingo</string>
+	<key>Mon</key>
+	<string>Segunda</string>
+	<key>Tues</key>
+	<string>Terça</string>
+	<key>Wed</key>
+	<string>Quarta</string>
+	<key>Thur</key>
+	<string>Quinta</string>
+	<key>Fri</key>
+	<string>Sexta</string>
+	<key>Sat</key>
+	<string>Sábado</string>
+</dict>
+</plist>

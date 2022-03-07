@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserCon</key>
+	<string>Confirm</string>
+	<key>UserPri</key>
+	<string>Privacy Policy</string>
+	<key>UserAg</key>
+	<string>User Agreement</string>
+	<key>errorNetWork</key>
+	<string>Network error, please check your connection and try again.</string>
+	<key>phoneBind</key>
+	<string>You have already bound your phone</string>
+	<key>sendSuccess</key>
+	<string>Verification code sent successfully</string>
+	<key>codeNil</key>
+	<string>Code cannot be empty/Fill in a complete code</string>
+	<key>phoneNil</key>
+	<string>Phone number cannot be empty/Fill in a complete phone number</string>
+	<key>phoneBack</key>
+	<string>Back</string>
+	<key>phoneSure</key>
+	<string>Confirm</string>
+	<key>enterCode</key>
+	<string>Enter verification code</string>
+	<key>getCode</key>
+	<string>Get code</string>
+	<key>enterPhone</key>
+	<string>Enter phone number</string>
+	<key>chooseCou</key>
+	<string>Select your country</string>
+	<key>bindPhone</key>
+	<string>Phone Verification</string>
+	<key>lan_change</key>
+	<string>Confirm to switch the language?</string>
+	<key>UserFB</key>
+	<string>FB Login</string>
+	<key>lan_th</key>
+	<string>Confirm to select Thai?</string>
+	<key>lan_ru</key>
+	<string>Confirm to select Russian?</string>
+	<key>lan_pt</key>
+	<string>Confirm to select Portuguese?</string>
+	<key>lan_ko</key>
+	<string>Confirm to select Korean?</string>
+	<key>lan_ja</key>
+	<string>Confirm to select Japanese?</string>
+	<key>lan_id</key>
+	<string>Confirm to select Indonesian?</string>
+	<key>lan_hk</key>
+	<string>Confirm to select Traditional Chinese?</string>
+	<key>lan_es</key>
+	<string>Confirm to select Spanish?</string>
+	<key>lan_en</key>
+	<string>Confirm to select English?</string>
+	<key>lan_ar</key>
+	<string>Confirm to select Arabic?</string>
+	<key>lan_cancle</key>
+	<string>Cancel</string>
+	<key>lan_sure</key>
+	<string>Confirm</string>
+	<key>TitleMsg</key>
+	<string>Select a language</string>
+	<key>Tip</key>
+	<string>Tips</string>
+	<key>PaySuccess</key>
+	<string>Successful Purchase</string>
+	<key>PayFail</key>
+	<string>Purchase Failed</string>
+	<key>ValidationError</key>
+	<string>Verification message error</string>
+	<key>UserCancle</key>
+	<string>The user canceled the authorization request</string>
+	<key>AuthorizationFailure</key>
+	<string>Authorization request failed</string>
+	<key>NORequest</key>
+	<string>Authorization request not responded</string>
+	<key>NOAnswer</key>
+	<string>Unable to process the authorization request</string>
+	<key>NOReason</key>
+	<string>Authorization request failed for unknown reasons</string>
+	<key>NetWorkError</key>
+	<string>Network Error</string>
+	<key>UserEmpty</key>
+	<string>Account number or password not entered</string>
+	<key>Agreement</key>
+	<string>Utilization protocol</string>
+	<key>Provision</key>
+	<string>You must agree to the User Terms and Conditions to use this application. Please read the User Terms and Conditions and click the Agree button.</string>
+	<key>Disagree</key>
+	<string>Disagree</string>
+	<key>Agree</key>
+	<string>Agree</string>
+	<key>MsgProvision</key>
+	<string>You must agree to the User Terms and Conditions to use this application.</string>
+	<key>Sure</key>
+	<string>Confirm</string>
+	<key>LoginMode</key>
+	<string>＊Please select an account login method.
+＊The game character information will be changed to the game character information of the login account after login.</string>
+	<key>LineLogin</key>
+	<string>LINE Login</string>
+	<key>UserLogin</key>
+	<string>EYOU Account Login</string>
+	<key>Register</key>
+	<string>Register</string>
+	<key>Error</key>
+	<string>Error</string>
+	<key>LoginSuccess</key>
+	<string>Login Successful</string>
+	<key>Close</key>
+	<string>Close</string>
+	<key>EnterAccount</key>
+	<string>Enter account number</string>
+	<key>EnterPassword</key>
+	<string>Enter password</string>
+	<key>Login</key>
+	<string>Log in</string>
+	<key>ForgetPw</key>
+	<string>Forgot password</string>
+	<key>AccountMsg</key>
+	<string>Account Information</string>
+	<key>CurrentAccount</key>
+	<string>Current Account</string>
+	<key>LoginAccount</key>
+	<string>Login Account</string>
+	<key>ChangeMsg</key>
+	<string>The character information will be changed to the character information of the login account, continue?</string>
+	<key>Cancle</key>
+	<string>Cancel</string>
+	<key>BeSure</key>
+	<string>Confirm</string>
+	<key>AccountSame</key>
+	<string>You have logged in using the same account</string>
+	<key>Sent</key>
+	<string>Send</string>
+	<key>HaveSent</key>
+	<string>A new password has been sent to the registered email</string>
+	<key>DoLater</key>
+	<string>Please try again later</string>
+	<key>Inexistence</key>
+	<string>Invalid account</string>
+	<key>AccountWarning</key>
+	<string>Account number contains invalid characters</string>
+	<key>EmailError1</key>
+	<string>The email address you entered is invalid</string>
+	<key>EmailError2</key>
+	<string>The email address you entered does not match your account</string>
+	<key>ConnectError</key>
+	<string>Connection Error</string>
+	<key>EmailAgain</key>
+	<string>Confirm email address</string>
+	<key>BindAccount</key>
+	<string>Account Binding</string>
+	<key>BindDone</key>
+	<string>Account binding completed</string>
+	<key>PwAgain</key>
+	<string>Re-enter password</string>
+	<key>EnterEmail</key>
+	<string>Enter email address</string>
+	<key>PwAgainError</key>
+	<string>The passwords do not match</string>
+	<key>Warning</key>
+	<string>Attention</string>
+	<key>BindMsg</key>
+	<string>By binding the game to your LINE or EYOU account, you can transfer the character information to other devices. After binding, install the game on another device, open the game and tap the Account Login button to log in to the game with your bound account.
+If you forgot the password of your EYOU account, you can request a new password which will be sent to your registered email. So please ensure you enter the correct email address. </string>
+	<key>AgeLimit</key>
+	<string>Age Restriction for In-App Purchases</string>
+	<key>AgeMsg</key>
+	<string>If you are underage then you must have your guardians&apos; permissions to make any In-App purchases.</string>
+	<key>NewAccountMsg</key>
+	<string>After creating a new account, you will log in to the game with your new account and log out of your original game account. Please ensure that your original game account has been bound to avoid any loss. </string>
+	<key>NewAccountDone</key>
+	<string>New account created</string>
+	<key>NoAds</key>
+	<string>No playable ads currently</string>
+	<key>GetFail</key>
+	<string>Access failed</string>
+	<key>News</key>
+	<string>New</string>
+	<key>Activity</key>
+	<string>Event</string>
+	<key>System</key>
+	<string>System</string>
+	<key>NotToady</key>
+	<string>Hide for today</string>
+	<key>Detail</key>
+	<string>Details</string>
+	<key>Sun</key>
+	<string>Sunday</string>
+	<key>Mon</key>
+	<string>Monday</string>
+	<key>Tues</key>
+	<string>Tuesday</string>
+	<key>Wed</key>
+	<string>Wednesday</string>
+	<key>Thur</key>
+	<string>Thursday</string>
+	<key>Fri</key>
+	<string> Friday</string>
+	<key>Sat</key>
+	<string>Saturday</string>
+</dict>
+</plist>

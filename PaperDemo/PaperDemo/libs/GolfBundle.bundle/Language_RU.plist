@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserCon</key>
+	<string>Подтв.</string>
+	<key>UserPri</key>
+	<string>Политика конфиденц.</string>
+	<key>UserAg</key>
+	<string>Пользоват. соглашение</string>
+	<key>errorNetWork</key>
+	<string>Ошибка подключения к интернету, проверьте соединение и попробуйте снова.</string>
+	<key>phoneBind</key>
+	<string>Вы уже привязали телефон</string>
+	<key>sendSuccess</key>
+	<string>Код для подтверждения отправлен</string>
+	<key>codeNil</key>
+	<string>Заполните поле с кодом/Впишите верный код</string>
+	<key>phoneNil</key>
+	<string>Заполните поле с телефоном/Впишите верный номер тел.</string>
+	<key>phoneBack</key>
+	<string>Назад</string>
+	<key>phoneSure</key>
+	<string>Подтв.</string>
+	<key>enterCode</key>
+	<string>Введите код</string>
+	<key>getCode</key>
+	<string>Отпр. код</string>
+	<key>enterPhone</key>
+	<string>Введите номер</string>
+	<key>chooseCou</key>
+	<string>Выберите страну</string>
+	<key>bindPhone</key>
+	<string>Верификация</string>
+	<key>lan_change</key>
+	<string>Сменить язык? </string>
+	<key>UserFB</key>
+	<string>Войти через Facebook</string>
+	<key>lan_th</key>
+	<string>Выбрать тайский язык?</string>
+	<key>lan_ru</key>
+	<string>Выбрать русский язык?</string>
+	<key>lan_pt</key>
+	<string>Выбрать португальский язык?</string>
+	<key>lan_ko</key>
+	<string>Выбрать корейский язык?</string>
+	<key>lan_ja</key>
+	<string>Выбрать японский язык?</string>
+	<key>lan_id</key>
+	<string>Выбрать индонезийский язык?</string>
+	<key>lan_hk</key>
+	<string>Выбрать китайский (трад.) язык?</string>
+	<key>lan_es</key>
+	<string>Выбрать испанский язык?</string>
+	<key>lan_en</key>
+	<string>Выбрать английский язык?</string>
+	<key>lan_ar</key>
+	<string>Выбрать арабский язык?</string>
+	<key>lan_cancle</key>
+	<string>Отмена</string>
+	<key>lan_sure</key>
+	<string>Подтвердить</string>
+	<key>TitleMsg</key>
+	<string>Выберите язык</string>
+	<key>Tip</key>
+	<string>Напоминание</string>
+	<key>PaySuccess</key>
+	<string>Куплено</string>
+	<key>PayFail</key>
+	<string>Сбой покупки</string>
+	<key>ValidationError</key>
+	<string>Ошибка информации об аутентификации</string>
+	<key>UserCancle</key>
+	<string>Пользователь отменил запрос авторизации</string>
+	<key>AuthorizationFailure</key>
+	<string>Запрос авторизации не выполнен</string>
+	<key>NORequest</key>
+	<string>Нет ответа на запрос авторизации</string>
+	<key>NOAnswer</key>
+	<string>Невозможно обработать запрос авторизации</string>
+	<key>NOReason</key>
+	<string>Неизвестная ошибка запроса авторизации</string>
+	<key>NetWorkError</key>
+	<string>Ошибка сети</string>
+	<key>UserEmpty</key>
+	<string>Не введена уч. запись или пароль</string>
+	<key>Agreement</key>
+	<string>Условия использования</string>
+	<key>Provision</key>
+	<string>Для использования данного приложения, вы должны согласиться с &quot;Условия использования&quot;. Пожалуйста, прочитайте &quot;Условия использования&quot; и нажмите кнопку &quot;Согласен&quot;.</string>
+	<key>Disagree</key>
+	<string>Не согласен</string>
+	<key>Agree</key>
+	<string>Согласен</string>
+	<key>MsgProvision</key>
+	<string>Вы должны согласиться с &quot;Условия использования&quot;, чтобы использовать это приложение</string>
+	<key>Sure</key>
+	<string>Подтвердить</string>
+	<key>LoginMode</key>
+	<string>*Выберите способ для входа в учётную запись.
+*После входа в систему, информация об игровом персонаже будет изменена на информацию об игровом персонаже учетной записи.</string>
+	<key>LineLogin</key>
+	<string>Вход LINE</string>
+	<key>UserLogin</key>
+	<string>Войти через Eyou</string>
+	<key>Register</key>
+	<string>Регистрация</string>
+	<key>Error</key>
+	<string>Ошибка</string>
+	<key>LoginSuccess</key>
+	<string>Вход выполнен</string>
+	<key>Close</key>
+	<string>Закрыть</string>
+	<key>EnterAccount</key>
+	<string>Введите логин</string>
+	<key>EnterPassword</key>
+	<string>Введите пароль</string>
+	<key>Login</key>
+	<string>Войти</string>
+	<key>ForgetPw</key>
+	<string>Забыли пароль?</string>
+	<key>AccountMsg</key>
+	<string>Информация об аккаунте</string>
+	<key>CurrentAccount</key>
+	<string>Текущий аккаунт</string>
+	<key>LoginAccount</key>
+	<string>Вход в систему</string>
+	<key>ChangeMsg</key>
+	<string>Данные персонажа будут заменены на данные персонажа учетной записи, продолжить?</string>
+	<key>Cancle</key>
+	<string>Отмена</string>
+	<key>BeSure</key>
+	<string>Подтвердить</string>
+	<key>AccountSame</key>
+	<string>Используется такая же уч. запись</string>
+	<key>Sent</key>
+	<string>Отправить</string>
+	<key>HaveSent</key>
+	<string>Новый пароль для входа был отправлен на почту</string>
+	<key>DoLater</key>
+	<string>Повторите позже</string>
+	<key>Inexistence</key>
+	<string>Учётная запись не найдена</string>
+	<key>AccountWarning</key>
+	<string>Уч. запись содержит недопустимые символы</string>
+	<key>EmailError1</key>
+	<string>Почта не введена или введена неверно</string>
+	<key>EmailError2</key>
+	<string>Почтовый адрес не является почтой этой учетной записи</string>
+	<key>ConnectError</key>
+	<string>Ошибка соединения</string>
+	<key>EmailAgain</key>
+	<string>Пожалуйста, подтвердите почту еще раз</string>
+	<key>BindAccount</key>
+	<string>Привязка аккаунта</string>
+	<key>BindDone</key>
+	<string>Уч. запись привязана</string>
+	<key>PwAgain</key>
+	<string>Введите ещё раз</string>
+	<key>EnterEmail</key>
+	<string>Введите почту</string>
+	<key>PwAgainError</key>
+	<string>Пароли не совпадают</string>
+	<key>Warning</key>
+	<string>ВНИМАНИЕ</string>
+	<key>BindMsg</key>
+	<string>После привязки к VK, FB, Apple или EYOU аккаунту данные о персонаже можно переносить на другие устройства. Совершив привязку, установите игру на другое устройство, откройте игру и на интерфейсе входа нажмите на вход в аккаунт, чтобы войти в привязанный аккаунт.
+При утере пароля от EYOU аккаунта, новый пароль будет отправлен на указанный почтовый ящик. Настоятельно просим Вас указывать верный почтовый адрес.</string>
+	<key>AgeLimit</key>
+	<string>О возрастных ограничениях покупок</string>
+	<key>AgeMsg</key>
+	<string>Если вы не достигли совершеннолетия, пожалуйста, обязательно получите разрешение опекуна перед покупкой игровых предметов.</string>
+	<key>NewAccountMsg</key>
+	<string>После создания новой учетной записи, вы войдете в игру с новой учетной записью и выйдете из своей первоначальной игровой учетной записи. Пожалуйста, убедитесь, что ваша первоначальная игровая учетная запись была привязана, чтобы избежать потери ваших игровых достижений.</string>
+	<key>NewAccountDone</key>
+	<string>Создание уч. записи завершено</string>
+	<key>NoAds</key>
+	<string>В настоящее время нет доступной рекламы</string>
+	<key>GetFail</key>
+	<string>Не удалось получить</string>
+	<key>News</key>
+	<string>Свежая информация</string>
+	<key>Activity</key>
+	<string>События</string>
+	<key>System</key>
+	<string>Система</string>
+	<key>NotToady</key>
+	<string>Сегодня не показывать снова</string>
+	<key>Detail</key>
+	<string>Подробнее</string>
+	<key>Sun</key>
+	<string>Воскресенье</string>
+	<key>Mon</key>
+	<string>понедельник</string>
+	<key>Tues</key>
+	<string>вторник</string>
+	<key>Wed</key>
+	<string>среда</string>
+	<key>Thur</key>
+	<string>четверг</string>
+	<key>Fri</key>
+	<string>пятница</string>
+	<key>Sat</key>
+	<string>суббота</string>
+</dict>
+</plist>

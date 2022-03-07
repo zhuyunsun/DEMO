@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserCon</key>
+	<string>Confirmar</string>
+	<key>UserPri</key>
+	<string>Política de Privacidad</string>
+	<key>UserAg</key>
+	<string>Acuerdo de Usuario</string>
+	<key>errorNetWork</key>
+	<string>Error de conexión. Comprueba la red y vuelve a intentar.</string>
+	<key>phoneBind</key>
+	<string>Ya vinculaste núm. de teléfono</string>
+	<key>sendSuccess</key>
+	<string>Código enviado exitosamente</string>
+	<key>codeNil</key>
+	<string>Código no puede estar vacío </string>
+	<key>phoneNil</key>
+	<string>Núm. de teléfono no puede estar vacío </string>
+	<key>phoneBack</key>
+	<string>Atrás</string>
+	<key>phoneSure</key>
+	<string>Confirmar</string>
+	<key>enterCode</key>
+	<string>Ingrese código</string>
+	<key>getCode</key>
+	<string>Ingresar código</string>
+	<key>enterPhone</key>
+	<string>Ingrese teléfono</string>
+	<key>chooseCou</key>
+	<string>Elija país</string>
+	<key>bindPhone</key>
+	<string>Autenticar teléfono</string>
+	<key>lan_change</key>
+	<string>¿Seguro de cambiar el idioma?</string>
+	<key>UserFB</key>
+	<string>Iniciar sesión con FB</string>
+	<key>lan_th</key>
+	<string>¿Está seguro de seleccionar Tailandés?</string>
+	<key>lan_ru</key>
+	<string>¿Está seguro de seleccionar Ruso?</string>
+	<key>lan_pt</key>
+	<string>¿Está seguro de seleccionar Portugués?</string>
+	<key>lan_ko</key>
+	<string>¿Está seguro de seleccionar Coreano?</string>
+	<key>lan_ja</key>
+	<string>¿Está seguro de seleccionar Japonés?</string>
+	<key>lan_id</key>
+	<string>¿Está seguro de seleccionar Indonés?</string>
+	<key>lan_hk</key>
+	<string>¿Está seguro de seleccionar Chino Tradicional?</string>
+	<key>lan_es</key>
+	<string>¿Está seguro de seleccionar Español?</string>
+	<key>lan_en</key>
+	<string>¿Está seguro de seleccionar Inglés?</string>
+	<key>lan_ar</key>
+	<string>¿Está seguro de seleccionar Árabe?</string>
+	<key>lan_cancle</key>
+	<string>Cancelar</string>
+	<key>lan_sure</key>
+	<string>Confirmar</string>
+	<key>TitleMsg</key>
+	<string>Seleccione el idioma</string>
+	<key>Tip</key>
+	<string>Nota</string>
+	<key>PaySuccess</key>
+	<string>Compra exitosa</string>
+	<key>PayFail</key>
+	<string>Compra fallida</string>
+	<key>ValidationError</key>
+	<string>Error de mensaje de validación</string>
+	<key>UserCancle</key>
+	<string>El usuario canceló la solicitud de autorización</string>
+	<key>AuthorizationFailure</key>
+	<string>Error en la solicitud de autorización </string>
+	<key>NORequest</key>
+	<string>La solicitud de autorización no responde</string>
+	<key>NOAnswer</key>
+	<string>No se puede procesar la solicitud de autorización </string>
+	<key>NOReason</key>
+	<string>Error en la solicitud de autorización por razón desconocida</string>
+	<key>NetWorkError</key>
+	<string>Error de red</string>
+	<key>UserEmpty</key>
+	<string>Cuenta o contraseña no ingresadas</string>
+	<key>Agreement</key>
+	<string>Protocolo de utilización</string>
+	<key>Provision</key>
+	<string>Debe aceptar [Términos de uso] para poder utilizar esta APP. Por favor lea [Términos de uso] y luego pulse Aceptar</string>
+	<key>Disagree</key>
+	<string>No aceptar</string>
+	<key>Agree</key>
+	<string>Aceptar</string>
+	<key>MsgProvision</key>
+	<string>Debe aceptar [Términos de uso] para poder utilizar esta APP. </string>
+	<key>Sure</key>
+	<string>Confirmar</string>
+	<key>LoginMode</key>
+	<string>*Por favor seleccione el método de inicio de sesión que desea utilizar.
+ *Luego de iniciar sesión, los datos del personaje del juego se cambiarán a los datos del personaje del juego en la cuenta de inicio de sesión. </string>
+	<key>LineLogin</key>
+	<string>Iniciar sesión con LINE</string>
+	<key>UserLogin</key>
+	<string>Iniciar sesión con Eyou</string>
+	<key>Register</key>
+	<string>Registrarse</string>
+	<key>Error</key>
+	<string>Error</string>
+	<key>LoginSuccess</key>
+	<string>Iniciar de sesión exitoso</string>
+	<key>Close</key>
+	<string>Cerrar</string>
+	<key>EnterAccount</key>
+	<string>Ingresar cuenta</string>
+	<key>EnterPassword</key>
+	<string>Ingresar contraseña</string>
+	<key>Login</key>
+	<string>Iniciar sesión</string>
+	<key>ForgetPw</key>
+	<string>Olvidé mi contraseña</string>
+	<key>AccountMsg</key>
+	<string>Información de cuenta</string>
+	<key>CurrentAccount</key>
+	<string>Cuenta actual</string>
+	<key>LoginAccount</key>
+	<string>Cuenta de inicio de sesión</string>
+	<key>ChangeMsg</key>
+	<string>Los datos del personaje del juego se cambiarán a los datos del personaje del juego en la cuenta de inicio de sesión. ¿Desea continuar? </string>
+	<key>Cancle</key>
+	<string>Cancelar</string>
+	<key>BeSure</key>
+	<string>Confirmar</string>
+	<key>AccountSame</key>
+	<string>Igual a la cuenta que usa actualmente</string>
+	<key>Sent</key>
+	<string>Enviar</string>
+	<key>HaveSent</key>
+	<string>La contraseña nueva fue enviada a la dirección de correo de inicio de sesión</string>
+	<key>DoLater</key>
+	<string>Por favor intente luego</string>
+	<key>Inexistence</key>
+	<string>La cuenta no existe</string>
+	<key>AccountWarning</key>
+	<string>La cuenta contiene caracteres inutilizables</string>
+	<key>EmailError1</key>
+	<string>No ingresó ó ingresó la dirección de correo incorrecto</string>
+	<key>EmailError2</key>
+	<string>Esta no es la dirección de correo de inicio de sesión de esta cuenta</string>
+	<key>ConnectError</key>
+	<string>Error de conexión</string>
+	<key>EmailAgain</key>
+	<string>Por favor confirme la dirección de correo nuevamente</string>
+	<key>BindAccount</key>
+	<string>Vincular cuenta</string>
+	<key>BindDone</key>
+	<string>Cuenta vinculada</string>
+	<key>PwAgain</key>
+	<string>Reingresar contraseña</string>
+	<key>EnterEmail</key>
+	<string>Ingresar dirección de correo</string>
+	<key>PwAgainError</key>
+	<string>Ambas contraseñas no coinciden</string>
+	<key>Warning</key>
+	<string>Atención</string>
+	<key>BindMsg</key>
+	<string>Al vincular la cuenta con LINE o EYOU, puede transferir los datos del personaje del juego a otros dispositivos. Después de vincular, instale el juego en otro dispositivo y luego pulse el botón inicio de sesión para iniciar sesión en la cuenta vinculada. Si pierde la contraseña de su cuenta EYOU, puede recuperarla a través del correo registrado en ella. Por ello, ingrese por favor la dirección de correo correcta.</string>
+	<key>AgeLimit</key>
+	<string>Acerca del límite de edad en compras</string>
+	<key>AgeMsg</key>
+	<string>Las compras en el juego por jugadores menores de edad deben hacerse bajo la autorización del padre o tutor.</string>
+	<key>NewAccountMsg</key>
+	<string>Después de crear una cuenta nueva, inicie sesión en el juego con ella y cierre sesión de su cuenta de juego original. Asegúrese de que la cuenta de juego original esté vinculada para evitar perderla.</string>
+	<key>NewAccountDone</key>
+	<string>Creación de cuenta exitosa</string>
+	<key>NoAds</key>
+	<string>No más anuncios para reproducir por el momento</string>
+	<key>GetFail</key>
+	<string>Fallo al obtener</string>
+	<key>News</key>
+	<string>Mensaje nuevo</string>
+	<key>Activity</key>
+	<string>Evento</string>
+	<key>System</key>
+	<string>Sistema</string>
+	<key>NotToady</key>
+	<string>No recordar más por hoy</string>
+	<key>Detail</key>
+	<string>Detalles</string>
+	<key>Sun</key>
+	<string>Domingo</string>
+	<key>Mon</key>
+	<string>Lunes</string>
+	<key>Tues</key>
+	<string>Martes</string>
+	<key>Wed</key>
+	<string>Miércoles</string>
+	<key>Thur</key>
+	<string>Jueves</string>
+	<key>Fri</key>
+	<string>Viernes</string>
+	<key>Sat</key>
+	<string>Sábado</string>
+</dict>
+</plist>

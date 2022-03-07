@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserCon</key>
+	<string>Yakin</string>
+	<key>UserPri</key>
+	<string>Kebijakan pribadi</string>
+	<key>UserAg</key>
+	<string>Perjanjian pengguna</string>
+	<key>errorNetWork</key>
+	<string>Jaringan abnormal, mohon ganti koneksi dan coba lagi</string>
+	<key>phoneBind</key>
+	<string>Kamu telah mengikat no telp</string>
+	<key>sendSuccess</key>
+	<string>Kode verifikasi berhasil dikirim</string>
+	<key>codeNil</key>
+	<string>Kode tidak boleh kosong/mohon isi dengan lengkap</string>
+	<key>phoneNil</key>
+	<string>No. Telp tidak boleh kosong/mohon isi dengan lengkap</string>
+	<key>phoneBack</key>
+	<string>Kembali</string>
+	<key>phoneSure</key>
+	<string>Yakin</string>
+	<key>enterCode</key>
+	<string>Masukkan kode verifikasi</string>
+	<key>getCode</key>
+	<string>Kirim kode</string>
+	<key>enterPhone</key>
+	<string>Masukkan No. Telp</string>
+	<key>chooseCou</key>
+	<string>Mohon pilih negara</string>
+	<key>bindPhone</key>
+	<string>Verifikasi No. Telp</string>
+	<key>lan_change</key>
+	<string>Ganti bahasa?</string>
+	<key>UserFB</key>
+	<string>Login dengan Apple</string>
+	<key>lan_th</key>
+	<string>Pilih bahasa Thailand?</string>
+	<key>lan_ru</key>
+	<string>Pilih bahasa Rusia?</string>
+	<key>lan_pt</key>
+	<string>Pilih bahasa Portugis?</string>
+	<key>lan_ko</key>
+	<string>Pilih bahasa Korea?</string>
+	<key>lan_ja</key>
+	<string>Pilih bahasa Jepang?</string>
+	<key>lan_id</key>
+	<string>Pilih bahasa Indonesia?</string>
+	<key>lan_hk</key>
+	<string>Pilih bahasa Mandarin?</string>
+	<key>lan_es</key>
+	<string>Pilih bahasa Spanyol?</string>
+	<key>lan_en</key>
+	<string>Pilih bahasa Inggris?</string>
+	<key>lan_ar</key>
+	<string>Pilih bahasa Arab?</string>
+	<key>lan_cancle</key>
+	<string>Batal</string>
+	<key>lan_sure</key>
+	<string>Yakin</string>
+	<key>TitleMsg</key>
+	<string>Silakan pilih bahasa game</string>
+	<key>Tip</key>
+	<string>Berhasil</string>
+	<key>PaySuccess</key>
+	<string>Pembelian berhasil</string>
+	<key>PayFail</key>
+	<string>Pembelian gagal</string>
+	<key>ValidationError</key>
+	<string>Kesalahan pesan verifikasi</string>
+	<key>UserCancle</key>
+	<string>Pengguna membatalkan permintaan otorisasi</string>
+	<key>AuthorizationFailure</key>
+	<string>Permintaan otorisasi gagal</string>
+	<key>NORequest</key>
+	<string>Tidak ada tanggapan untuk permintaan otorisasi</string>
+	<key>NOAnswer</key>
+	<string>Tidak dapat memproses permintaan otorisasi</string>
+	<key>NOReason</key>
+	<string>Permintaan otorisasi gagal karena alasan yang tidak diketahui</string>
+	<key>NetWorkError</key>
+	<string>Kesalahan jaringan</string>
+	<key>UserEmpty</key>
+	<string>Akun atau kata sandi belum dimasukkan</string>
+	<key>Agreement</key>
+	<string>Protokol pemanfaatan</string>
+	<key>Provision</key>
+	<string>Anda harus menyetujui [Persyaratan Pengguna] untuk menggunakan aplikasi ini. Harap baca [Persyaratan Pengguna] dan klik tombol Setuju.</string>
+	<key>Disagree</key>
+	<string>Tidak Setuju</string>
+	<key>Agree</key>
+	<string>Setuju</string>
+	<key>MsgProvision</key>
+	<string>Anda harus menyetujui [Persyaratan Pengguna] untuk menggunakan aplikasi ini. Harap baca [Persyaratan Pengguna] dan klik tombol Setuju.</string>
+	<key>Sure</key>
+	<string>Konfirmasi</string>
+	<key>LoginMode</key>
+	<string>*Harap pilih metode login akun
+*Setelah login, data karakter game akan mengikuti data karakter dari akun login</string>
+	<key>LineLogin</key>
+	<string>Login LINE</string>
+	<key>UserLogin</key>
+	<string>Login akun EYOU</string>
+	<key>Register</key>
+	<string>Daftar</string>
+	<key>Error</key>
+	<string>Kesalahan</string>
+	<key>LoginSuccess</key>
+	<string>Login berhasil</string>
+	<key>Close</key>
+	<string>Tutup</string>
+	<key>EnterAccount</key>
+	<string>Masukkan akun</string>
+	<key>EnterPassword</key>
+	<string>Masukkan kata sandi</string>
+	<key>Login</key>
+	<string>Login</string>
+	<key>ForgetPw</key>
+	<string>Lupa kata sandi</string>
+	<key>AccountMsg</key>
+	<string>Info Akun</string>
+	<key>CurrentAccount</key>
+	<string>Akun</string>
+	<key>LoginAccount</key>
+	<string>Login</string>
+	<key>ChangeMsg</key>
+	<string>Data karakter akan diganti dengan data karakter dari akun login. Lanjutkan?</string>
+	<key>Cancle</key>
+	<string>Batal</string>
+	<key>BeSure</key>
+	<string>Konfirmasi</string>
+	<key>AccountSame</key>
+	<string>Sama dengan akun yang digunakan saat ini</string>
+	<key>Sent</key>
+	<string>Kirim</string>
+	<key>HaveSent</key>
+	<string>Kata sandi baru sudah dikirim ke email terdaftar</string>
+	<key>DoLater</key>
+	<string>Mohon coba lagi nanti</string>
+	<key>Inexistence</key>
+	<string>Akun tidak ditemukan</string>
+	<key>AccountWarning</key>
+	<string>Akun berisi karakter ilegal</string>
+	<key>EmailError1</key>
+	<string>Email belum dimasukkan/Email salah</string>
+	<key>EmailError2</key>
+	<string>Email ini bukan email yang terdaftar pada akun</string>
+	<key>ConnectError</key>
+	<string>Koneksi gagal</string>
+	<key>EmailAgain</key>
+	<string>Mohon konfirmasi kembali email</string>
+	<key>BindAccount</key>
+	<string>Bind akun</string>
+	<key>BindDone</key>
+	<string>Bind akun berhasil</string>
+	<key>PwAgain</key>
+	<string>Mohon masukkan kembali kata sandi</string>
+	<key>EnterEmail</key>
+	<string>Masukkan email</string>
+	<key>PwAgainError</key>
+	<string>Kata sandi tidak konsisten, mohon masukkan kembali kata sandi</string>
+	<key>Warning</key>
+	<string>Note</string>
+	<key>BindMsg</key>
+	<string>Setelah bind dengan akun LINE atau EYOU, anda dapat menggunakan perangkat lain untuk mengakses data karakter game. Setelah bind, instal game di perangkat lain, buka game dan klik tombol login akun di sudut layar login untuk masuk ke akun bind.
+Jika kata sandi akun EYOU hilang, kata sandi akan dikirimkan ke email yang terdaftar pada akun, jadi pastikan untuk memasukkan email yang benar/aktif</string>
+	<key>AgeLimit</key>
+	<string>Mengenai batas usia pembelian</string>
+	<key>AgeMsg</key>
+	<string>Saat pemain di bawah umur melakukan pembelian item pada game berbayar, pemain perlu mendapatkan persetujuan dari wali/orang tua sebelum melakukan pembelian.</string>
+	<key>NewAccountMsg</key>
+	<string>Setelah membuat akun baru, anda akan masuk ke game dengan akun baru dan keluar dari akun sebelumnya. Pastikan akun telah di bind untuk menghidari kehilangan akun game.</string>
+	<key>NewAccountDone</key>
+	<string>Akun baru berhasil dibuat</string>
+	<key>NoAds</key>
+	<string>Tidak ada iklan yang tersedia</string>
+	<key>GetFail</key>
+	<string>Gagal mendapatkan</string>
+	<key>News</key>
+	<string>Berita baru</string>
+	<key>Activity</key>
+	<string>Event</string>
+	<key>System</key>
+	<string>Sistem</string>
+	<key>NotToady</key>
+	<string>Jangan ingatkan lagi hari ini</string>
+	<key>Detail</key>
+	<string>Detail</string>
+	<key>Sun</key>
+	<string>Minggu</string>
+	<key>Mon</key>
+	<string>Senin</string>
+	<key>Tues</key>
+	<string>Selasa</string>
+	<key>Wed</key>
+	<string>Rabu</string>
+	<key>Thur</key>
+	<string>Kamus</string>
+	<key>Fri</key>
+	<string>Jumat</string>
+	<key>Sat</key>
+	<string>Sabtu</string>
+</dict>
+</plist>

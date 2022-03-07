@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserCon</key>
+	<string>تأكيد</string>
+	<key>UserPri</key>
+	<string>سياسة الخصوصية</string>
+	<key>UserAg</key>
+	<string>اتفاقية المستخدم</string>
+	<key>errorNetWork</key>
+	<string>خطأ بالاتصال بالشبكة، يرجى التحقق من الشبكة والمحاولة لا حقا.</string>
+	<key>phoneBind</key>
+	<string>تم الربط برقم الهاتف هذا</string>
+	<key>sendSuccess</key>
+	<string>تم ارسال رمز التحقق</string>
+	<key>codeNil</key>
+	<string>لا يجب ترك رمز التحقق فارغ/يرجى إدخال رمز التحقق</string>
+	<key>phoneNil</key>
+	<string>لا يجب ترك رقم الهاتف فارغ/يرجى إدخال رقم الهاتف</string>
+	<key>phoneBack</key>
+	<string>رجوع</string>
+	<key>phoneSure</key>
+	<string>تاكيد</string>
+	<key>enterCode</key>
+	<string>يرجى إدخال رمز التحقق</string>
+	<key>getCode</key>
+	<string>استلام الرمز</string>
+	<key>enterPhone</key>
+	<string> إدخال رقم الهاتف</string>
+	<key>chooseCou</key>
+	<string>اختر البلد</string>
+	<key>bindPhone</key>
+	<string>التحقق بالهاتف</string>
+	<key>lan_change</key>
+	<string>سيؤدي تبديل اللغة إلى إعادة تشغيل اللعبة هل أنت متأكد من أنك تريد تبديل اللغة؟</string>
+	<key>UserFB</key>
+	<string>استخدم حساب FB</string>
+	<key>lan_th</key>
+	<string>هل أنت متأكد من اختيار التايلاندية؟</string>
+	<key>lan_ru</key>
+	<string>هل أنت متأكد من اختيار الروسية؟</string>
+	<key>lan_pt</key>
+	<string>هل أنت متأكد من اختيار البرتغالية؟</string>
+	<key>lan_ko</key>
+	<string>هل أنت متأكد من اختيار الكورية؟</string>
+	<key>lan_ja</key>
+	<string>هل أنت متأكد من اختيار اليابانية؟</string>
+	<key>lan_id</key>
+	<string>هل أنت متأكد من اختيار الإندونيسية؟</string>
+	<key>lan_hk</key>
+	<string>هل أنت متأكد من اختيار الصينية؟</string>
+	<key>lan_es</key>
+	<string>هل أنت متأكد من اختيار الإسبانية؟</string>
+	<key>lan_en</key>
+	<string>هل أنت متأكد من اختيار الإنجليزية؟</string>
+	<key>lan_ar</key>
+	<string>هل أنت متأكد من اختيار اللغة العربية؟</string>
+	<key>lan_cancle</key>
+	<string>إلغاء</string>
+	<key>lan_sure</key>
+	<string>تأكيد</string>
+	<key>TitleMsg</key>
+	<string>يرجى اختيار لغة اللعبة</string>
+	<key>Tip</key>
+	<string>استدعى</string>
+	<key>PaySuccess</key>
+	<string>نجح الشراء</string>
+	<key>PayFail</key>
+	<string>فشل الشراء</string>
+	<key>ValidationError</key>
+	<string>ﻖﻘﺤﺘﻟا ﺔﻟﺎﺳر ﻲﻓ ﺄﻄﺧ</string>
+	<key>UserCancle</key>
+	<string>الغى المستخدم طلب الأذن</string>
+	<key>AuthorizationFailure</key>
+	<string>نذﻻا ﺐﻠﻃ ﻞﺸﻓ</string>
+	<key>NORequest</key>
+	<string>نذﻷا ﺐﻠﻃ ﯽﻠﻋ در ﺪﺟﻮﻳ ﻻ</string>
+	<key>NOAnswer</key>
+	<string>نذﻷا ﺐﻠﻃ ﺔﺠﻟﺎﻌﻣ ﯽﻠﻋ ردﺎﻗ ﺮﻴﻏ</string>
+	<key>NOReason</key>
+	<string>فوﺮﻌﻣ ﺮﻴﻏ ﺐﺒﺴﻟ نذﻷا ﺐﻠﻃ ﻞﺸﻓ</string>
+	<key>NetWorkError</key>
+	<string>ﺔﻜﺒﺸﻟا ﻲﻓ ﺄﻄﺧ</string>
+	<key>UserEmpty</key>
+	<string>لم يتم إدخال رقم الحساب أو كلمة المرور</string>
+	<key>Agreement</key>
+	<string>بروتوكول الاستخدام</string>
+	<key>Provision</key>
+	<string>ﻖﻓاﻮﻣ رز قﻮﻓ ﺮﻘﻨﻟاو &quot;مﺪﺨﺘﺴﻤﻟا طوﺮﺷ&quot;ةءاﺮﻗ ﯽﺟﺮﻳ ،ﻖﻴﺒﻄﺘﻟا اﺬﻫ ماﺪﺨﺘﺳﻻ &quot;مﺪﺨﺘﺴﻤﻟا طوﺮﺷ&quot; ﯽﻠﻋ ﺔﻘﻓاﻮﻤﻟا ﺐﺠﻳ</string>
+	<key>Disagree</key>
+	<string>ﺾﻓر</string>
+	<key>Agree</key>
+	<string>ﻖﻓاﻮﻣ</string>
+	<key>MsgProvision</key>
+	<string>ﻖﻴﺒﻄﺘﻟا اﺬﻫ ماﺪﺨﺘﺳﻻ&quot; مﺪﺨﺘﺴﻤﻟا طوﺮﺷ&quot;ﯽﻠﻋ ﻖﻓاﻮﺗ نأ ﺐﺠﻳ</string>
+	<key>Sure</key>
+	<string>ﺪﻴﻛﺄﺗ</string>
+	<key>LoginMode</key>
+	<string>* يرجى اختيار طريقة توارث البيانات المربوطة.
+* بعد تسجيل الدخول إلى حسابات أخرى مربوطة ، سيتم تسجيل الخروج من الحساب الأصلي.</string>
+	<key>LineLogin</key>
+	<string>استخدام توارث  LINE</string>
+	<key>UserLogin</key>
+	<string>استخدام توارث الحساب</string>
+	<key>Register</key>
+	<string>حساب جديد</string>
+	<key>Error</key>
+	<string>ﺄﻄﺧ</string>
+	<key>LoginSuccess</key>
+	<string>نجح تسجيل الدخول</string>
+	<key>Close</key>
+	<string>اغلاق</string>
+	<key>EnterAccount</key>
+	<string>أدخل رقم الحساب</string>
+	<key>EnterPassword</key>
+	<string>أدخل كلمة المرور</string>
+	<key>Login</key>
+	<string>لﻮﺧﺪﻟا ﻞﻴﺠﺴﺗ</string>
+	<key>ForgetPw</key>
+	<string>هل نسيت كلمة السر</string>
+	<key>AccountMsg</key>
+	<string>بيانات الحساب</string>
+	<key>CurrentAccount</key>
+	<string>ﻲﻟﺎﺤﻟا بﺎﺴﺤﻟا ﻢﻗر</string>
+	<key>LoginAccount</key>
+	<string>بﺎﺴﺤﻟا ﻢﻗﺮﺑ لﻮﺧﺪﻟا ﻞﻴﺠﺴﺗ</string>
+	<key>ChangeMsg</key>
+	<string>سيتم استبدال بيانات الشخصية ببيانات شخصية تسجيل الدخول، هل تريد المتابعة؟</string>
+	<key>Cancle</key>
+	<string>إلغاء</string>
+	<key>BeSure</key>
+	<string>تأكيد</string>
+	<key>AccountSame</key>
+	<string>ﺎﻴﻟﺎﺣ مﺪﺨﺘﺴﻤﻟا بﺎﺴﺤﻟا ﺲﻔﻧ</string>
+	<key>Sent</key>
+	<string>لﺎﺳرا</string>
+	<key>HaveSent</key>
+	<string>لﻮﺧﺪﻟا ﻞﻴﺠﺴﺗ ﺪﻳﺮﺑ ﯽﻟا ةﺪﻳﺪﺠﻟا روﺮﻤﻟا ﺔﻤﻠﻛ لﺎﺳرا ﻢﺗ</string>
+	<key>DoLater</key>
+	<string>ﺎﻘﺣﻻ ﺔﻟوﺎﺤﻤﻟا ﯽﺟﺮﻳ</string>
+	<key>Inexistence</key>
+	<string>دﻮﺟﻮﻣ ﺮﻴﻏ بﺎﺴﺤﻟا</string>
+	<key>AccountWarning</key>
+	<string>ماﺪﺨﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ فﺮﺣأ ﯽﻠﻋ بﺎﺴﺤﻟا يﻮﺘﺤﻳ</string>
+	<key>EmailError1</key>
+	<string>ﺢﻴﺤﺻ ﺮﻴﻏ ﻞﻜﺸﺑ ﻪﻟﺎﺧدإ ﻢﺗ وأ ﺪﻳﺮﺒﻟا ناﻮﻨﻋ لﺎﺧدإ ﻢﺘﻳ ﻢﻟ</string>
+	<key>EmailError2</key>
+	<string>البريد هذا ليس البريد الخاص بتسجيل الدخول إلى هذا الحساب</string>
+	<key>ConnectError</key>
+	<string>لﺎﺼﺗﻹا ﻲﻓ ﺄﻄﺧ</string>
+	<key>EmailAgain</key>
+	<string>يرجى إعادة التحقق من عنوان البريد</string>
+	<key>BindAccount</key>
+	<string>ربط الحساب</string>
+	<key>BindDone</key>
+	<string>اكتمل ربط الحساب</string>
+	<key>PwAgain</key>
+	<string>أدخل كلمة المرور مرة أخرى</string>
+	<key>EnterEmail</key>
+	<string>أدخل عنوان صندوق البريد</string>
+	<key>PwAgainError</key>
+	<string>كلمتا المرور لا تتشابهان</string>
+	<key>Warning</key>
+	<string>ملاحظة</string>
+	<key>BindMsg</key>
+	<string>بعد ربط الحساب بأحدى الطرق التالیة Facebook أوGoogle أو EYOU أو Apple ID ، یمكنك نقل بیانات شخصیة اللعبة
+        إلى أجھزة أخرى ، بعد الربط ، قم بتثبیت اللعبة على الأجھزة الأخرى ، افتح اللعبة وانقر فوق زر تسجیل الدخول إلى الحساب في زاویة شاشة تسجیل الدخول لتسجیل الدخول الى الحساب المربوط. إذا فقدت كلمة مرور حساب ، فسیتم إرسال كلمة المرور إلى صندوق البرید المسجل عن طریق البرید ، لذا یرجى التأكد من إدخال عنوان صندوق البرید الصحیح</string>
+	<key>AgeLimit</key>
+	<string>ءاﺮﺸﻟا ﻦﺴﻟ ﯽﻧدﻷا ﺪﺤﻟﺎﺑ ﻖﻠﻌﺘﻳ ﺎﻤﻴﻓ</string>
+	<key>AgeMsg</key>
+	<string>.ءاﺮﺸﻟا ﻞﺒﻗ ﻲﺻﻮﻟا ﺔﻘﻓاﻮﻣ ﯽﻠﻋ لﻮﺼﺤﻟا ﻢﻬﻴﻠﻋ ﺐﺠﻳ ، ﺔﻋﻮﻓﺪﻣ ﺔﺒﻌﻟ ﺮﺻﺎﻨﻋ ﻲﻧﻮﻧﺎﻘﻟا ﻦﺴﻟا نود نﻮﺒﻋﻼﻟا يﺮﺘﺸﻳ ﺎﻣﺪﻨﻋ</string>
+	<key>NewAccountMsg</key>
+	<string>بعد إنشاء حساب جديد ستقوم بتسجيل الدخول الى اللعبة باستخدام الحساب ااجديد، وتسجيل الخروج من حساب اللعبة الأصلي، يرجى التأكد من ربط حساب اللعبة الاصلي لتجنب فقدان حساب اللعبة</string>
+	<key>NewAccountDone</key>
+	<string>تم إنشاء حساب جديد</string>
+	<key>NoAds</key>
+	<string>لا يوجد حاليا أي أعلانات للفتح</string>
+	<key>GetFail</key>
+	<string>مﻼﺘﺳﻻا ﻞﺸﻓ</string>
+	<key>News</key>
+	<string>ةﺪﻳﺪﺟ رﺎﺒﺧا</string>
+	<key>Activity</key>
+	<string>ثاﺪﺣﻻا</string>
+	<key>System</key>
+	<string>مﺎﻈﻨﻟا</string>
+	<key>NotToady</key>
+	<string>مﻮﻴﻟا ﻲﻧﺮﻛﺬﺗ ﻻ</string>
+	<key>Detail</key>
+	<string>ﻞﻴﺻﺎﻔﺗ</string>
+	<key>Sun</key>
+	<string>ﺪﺣﻻا</string>
+	<key>Mon</key>
+	<string>ﻦﻴﻨﺛﻻا</string>
+	<key>Tues</key>
+	<string>ءﺎﺛﻼﺜﻟا</string>
+	<key>Wed</key>
+	<string>ءﺎﻌﺑرﻻا</string>
+	<key>Thur</key>
+	<string>ﺲﻴﻤﺨﻟا</string>
+	<key>Fri</key>
+	<string>ﺔﻌﻤﺠﻟا</string>
+	<key>Sat</key>
+	<string>ﺖﺒﺴﻟا</string>
+</dict>
+</plist>

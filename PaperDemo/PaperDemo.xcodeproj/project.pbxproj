@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE60C27227D5AFEC0078FC0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27127D5AFEC0078FC0A /* AppDelegate.m */; };
+		FE60C27827D5AFEC0078FC0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27727D5AFEC0078FC0A /* ViewController.m */; };
+		FE60C27B27D5AFEC0078FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27927D5AFEC0078FC0A /* Main.storyboard */; };
+		FE60C27D27D5AFEE0078FC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27C27D5AFEE0078FC0A /* Assets.xcassets */; };
+		FE60C28027D5AFEE0078FC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27E27D5AFEE0078FC0A /* LaunchScreen.storyboard */; };
+		FE60C28327D5AFEE0078FC0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C28227D5AFEE0078FC0A /* main.m */; };
+		FE60C2E627D5B3590078FC0A /* GolfBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */; };
+		FE60C2E727D5B3590078FC0A /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C28D27D5B3590078FC0A /* AppsFlyerLib.framework */; };
+		FE60C2E827D5B35A0078FC0A /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C28F27D5B3590078FC0A /* GoogleDataTransport.framework */; };
+		FE60C2E927D5B35A0078FC0A /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29027D5B3590078FC0A /* FirebaseCore.framework */; };
+		FE60C2EA27D5B35A0078FC0A /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29127D5B3590078FC0A /* FirebaseRemoteConfig.framework */; };
+		FE60C2EB27D5B35A0078FC0A /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29227D5B3590078FC0A /* FirebaseAnalytics.framework */; };
+		FE60C2EC27D5B35A0078FC0A /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29427D5B3590078FC0A /* FirebaseInstallations.framework */; };
+		FE60C2ED27D5B35A0078FC0A /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29527D5B3590078FC0A /* FirebaseABTesting.framework */; };
+		FE60C2EE27D5B35A0078FC0A /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29627D5B3590078FC0A /* FirebaseCoreDiagnostics.framework */; };
+		FE60C2EF27D5B35A0078FC0A /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29827D5B3590078FC0A /* VKSdkFramework.framework */; };
+		FE60C2F027D5B35A0078FC0A /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29B27D5B3590078FC0A /* Tapjoy.framework */; };
+		FE60C2F127D5B35A0078FC0A /* ISTapjoyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29C27D5B3590078FC0A /* ISTapjoyAdapter.framework */; };
+		FE60C2F227D5B35A0078FC0A /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29E27D5B3590078FC0A /* ISFacebookAdapter.framework */; };
+		FE60C2F327D5B35A0078FC0A /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29F27D5B3590078FC0A /* FBAudienceNetwork.framework */; };
+		FE60C2F427D5B35A0078FC0A /* IASDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2A227D5B3590078FC0A /* IASDKCore.framework */; };
+		FE60C2F527D5B35A0078FC0A /* IASDKVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2A627D5B3590078FC0A /* IASDKVideo.framework */; };
+		FE60C2F627D5B35A0078FC0A /* ISFyberAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2A927D5B3590078FC0A /* ISFyberAdapter.framework */; };
+		FE60C2F727D5B35A0078FC0A /* IASDKMRAID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2AB27D5B3590078FC0A /* IASDKMRAID.framework */; };
+		FE60C2F827D5B35A0078FC0A /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2AF27D5B3590078FC0A /* BUAdSDK.framework */; };
+		FE60C2F927D5B35B0078FC0A /* BUCNAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B027D5B3590078FC0A /* BUCNAuxiliary.framework */; };
+		FE60C2FA27D5B35B0078FC0A /* BUVAAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B127D5B3590078FC0A /* BUVAAuxiliary.framework */; };
+		FE60C2FB27D5B35B0078FC0A /* ISPangleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B227D5B3590078FC0A /* ISPangleAdapter.framework */; };
+		FE60C2FC27D5B35B0078FC0A /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B327D5B3590078FC0A /* BUFoundation.framework */; };
+		FE60C2FD27D5B35B0078FC0A /* ISAppLovinAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B527D5B3590078FC0A /* ISAppLovinAdapter.framework */; };
+		FE60C2FE27D5B35B0078FC0A /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B627D5B3590078FC0A /* AppLovinSDK.framework */; };
+		FE60C2FF27D5B35B0078FC0A /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B827D5B3590078FC0A /* VungleSDK.framework */; };
+		FE60C30027D5B35B0078FC0A /* ISVungleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2B927D5B3590078FC0A /* ISVungleAdapter.framework */; };
+		FE60C30127D5B35B0078FC0A /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2BB27D5B3590078FC0A /* IronSource.framework */; };
+		FE60C30227D5B35B0078FC0A /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2BD27D5B3590078FC0A /* UnityAds.framework */; };
+		FE60C30327D5B35B0078FC0A /* ISUnityAdsAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2BE27D5B3590078FC0A /* ISUnityAdsAdapter.framework */; };
+		FE60C30427D5B35C0078FC0A /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C027D5B3590078FC0A /* GoogleAppMeasurement.framework */; };
+		FE60C30527D5B35C0078FC0A /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C127D5B3590078FC0A /* GoogleUtilities.framework */; };
+		FE60C30627D5B35C0078FC0A /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C227D5B3590078FC0A /* PromisesObjC.framework */; };
+		FE60C30727D5B35C0078FC0A /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C327D5B3590078FC0A /* nanopb.framework */; };
+		FE60C30827D5B35D0078FC0A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C427D5B3590078FC0A /* GoogleMobileAds.framework */; };
+		FE60C30927D5B35D0078FC0A /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C527D5B3590078FC0A /* UserMessagingPlatform.framework */; };
+		FE60C30A27D5B35D0078FC0A /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C627D5B3590078FC0A /* ISAdMobAdapter.framework */; };
+		FE60C30B27D5B35D0078FC0A /* LineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2C827D5B3590078FC0A /* LineSDK.framework */; };
+		FE60C30C27D5B35D0078FC0A /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2C927D5B3590078FC0A /* CHANGELOG.md */; };
+		FE60C30D27D5B35D0078FC0A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2CA27D5B3590078FC0A /* LICENSE.txt */; };
+		FE60C30E27D5B35D0078FC0A /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2CC27D5B3590078FC0A /* GoogleSignInDependencies.framework */; };
+		FE60C30F27D5B35D0078FC0A /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2CD27D5B3590078FC0A /* GoogleSignIn.framework */; };
+		FE60C31027D5B35D0078FC0A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2CF27D5B3590078FC0A /* FBSDKLoginKit.framework */; };
+		FE60C31127D5B35D0078FC0A /* FBAEMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D027D5B3590078FC0A /* FBAEMKit.framework */; };
+		FE60C31227D5B35D0078FC0A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D127D5B3590078FC0A /* FBSDKCoreKit.framework */; };
+		FE60C31327D5B35D0078FC0A /* FBSDKCoreKit_Basics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D227D5B3590078FC0A /* FBSDKCoreKit_Basics.framework */; };
+		FE60C31427D5B35D0078FC0A /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D327D5B3590078FC0A /* PearSDK.framework */; };
+		FE60C31527D5B35D0078FC0A /* IASDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */; };
+		FE60C31627D5B35D0078FC0A /* YankeeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */; };
+		FE60C31727D5B35D0078FC0A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D627D5B3590078FC0A /* Settings.bundle */; };
+		FE60C31827D5B35D0078FC0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D727D5B3590078FC0A /* GoogleService-Info.plist */; };
+		FE60C31927D5B35D0078FC0A /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D827D5B3590078FC0A /* GoogleSignIn.bundle */; };
+		FE60C31A27D5B35D0078FC0A /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D927D5B3590078FC0A /* BUAdSDK.bundle */; };
+		FE60C31B27D5B35D0078FC0A /* VKSdkResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2DA27D5B3590078FC0A /* VKSdkResources.bundle */; };
+		FE60C31C27D5B35D0078FC0A /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2DB27D5B3590078FC0A /* AppLovinSDKResources.bundle */; };
+		FE60C31D27D5B35D0078FC0A /* FZDHTJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2DD27D5B3590078FC0A /* FZDHTJW.TTF */; };
+		FE60C31E27D5B35D0078FC0A /* ARIALN1.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2DE27D5B3590078FC0A /* ARIALN1.TTF */; };
+		FE60C31F27D5B35D0078FC0A /* NanumGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2DF27D5B3590078FC0A /* NanumGothic.ttf */; };
+		FE60C32027D5B35D0078FC0A /* Neo_Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2E027D5B3590078FC0A /* Neo_Sans.ttf */; };
+		FE60C32127D5B35D0078FC0A /* A-OTF-FOLKPRO-MEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2E127D5B3590078FC0A /* A-OTF-FOLKPRO-MEDIUM.OTF */; };
+		FE60C32227D5B35D0078FC0A /* ARABTYPE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2E227D5B3590078FC0A /* ARABTYPE.TTF */; };
+		FE60C32327D5B35D0078FC0A /* arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2E327D5B3590078FC0A /* arial.ttf */; };
+		FE60C32427D5B35D0078FC0A /* LayijiMahaniyomV105.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2E427D5B3590078FC0A /* LayijiMahaniyomV105.ttf */; };
+		FE60C32527D5B35D0078FC0A /* FZDHTJW(1).TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2E527D5B3590078FC0A /* FZDHTJW(1).TTF */; };
+		FE60C32827D5B39A0078FC0A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C32727D5B39A0078FC0A /* iAd.framework */; };
+		FE60C32A27D5B3A80078FC0A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C32927D5B3A70078FC0A /* CoreTelephony.framework */; };
+		FE60C32C27D5B3AF0078FC0A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C32B27D5B3AF0078FC0A /* Security.framework */; };
+		FE60C32E27D5B74B0078FC0A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C32D27D5B74B0078FC0A /* libsqlite3.0.tbd */; };
+		FE60C33027D5B75B0078FC0A /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C32F27D5B75B0078FC0A /* AuthenticationServices.framework */; };
+		FE60C33427D5B7E00078FC0A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60C33327D5B7E00078FC0A /* File.swift */; };
+		FE60C33627D5B8000078FC0A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C33527D5B8000078FC0A /* libc++.tbd */; };
+		FE60C33827D5B8080078FC0A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C33727D5B8080078FC0A /* Accelerate.framework */; };
+		FE60C33A27D5B8140078FC0A /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C33927D5B8140078FC0A /* AppTrackingTransparency.framework */; };
+		FE60C33C27D5B8FF0078FC0A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C33B27D5B8FF0078FC0A /* SystemConfiguration.framework */; };
+		FE60C33E27D5B9120078FC0A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C33D27D5B9120078FC0A /* SafariServices.framework */; };
+		FE60C34027D5B91F0078FC0A /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C33F27D5B91F0078FC0A /* LocalAuthentication.framework */; };
+		FE60C34227D5B9270078FC0A /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34127D5B9270078FC0A /* libc++abi.tbd */; };
+		FE60C34427D5B93A0078FC0A /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34327D5B93A0078FC0A /* libbz2.1.0.tbd */; };
+		FE60C34627D5B9450078FC0A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34527D5B9450078FC0A /* libresolv.tbd */; };
+		FE60C34827D5B95E0078FC0A /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34727D5B95E0078FC0A /* libiconv.2.4.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE60C26D27D5AFEC0078FC0A /* PaperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE60C27027D5AFEC0078FC0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE60C27127D5AFEC0078FC0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE60C27627D5AFEC0078FC0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE60C27727D5AFEC0078FC0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE60C27A27D5AFEC0078FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE60C27C27D5AFEE0078FC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE60C27F27D5AFEE0078FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE60C28127D5AFEE0078FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE60C28227D5AFEE0078FC0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GolfBundle.bundle; sourceTree = "<group>"; };
+		FE60C28D27D5B3590078FC0A /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		FE60C28F27D5B3590078FC0A /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
+		FE60C29027D5B3590078FC0A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		FE60C29127D5B3590078FC0A /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		FE60C29227D5B3590078FC0A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		FE60C29327D5B3590078FC0A /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		FE60C29427D5B3590078FC0A /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
+		FE60C29527D5B3590078FC0A /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = "<group>"; };
+		FE60C29627D5B3590078FC0A /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		FE60C29827D5B3590078FC0A /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VKSdkFramework.framework; sourceTree = "<group>"; };
+		FE60C29B27D5B3590078FC0A /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
+		FE60C29C27D5B3590078FC0A /* ISTapjoyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISTapjoyAdapter.framework; sourceTree = "<group>"; };
+		FE60C29E27D5B3590078FC0A /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
+		FE60C29F27D5B3590078FC0A /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		FE60C2A227D5B3590078FC0A /* IASDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKCore.framework; sourceTree = "<group>"; };
+		FE60C2A427D5B3590078FC0A /* IASDKCore-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IASDKCore-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE60C2A627D5B3590078FC0A /* IASDKVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKVideo.framework; sourceTree = "<group>"; };
+		FE60C2A827D5B3590078FC0A /* IASDKVideo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IASDKVideo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE60C2A927D5B3590078FC0A /* ISFyberAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFyberAdapter.framework; sourceTree = "<group>"; };
+		FE60C2AB27D5B3590078FC0A /* IASDKMRAID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKMRAID.framework; sourceTree = "<group>"; };
+		FE60C2AD27D5B3590078FC0A /* IASDKMRAID-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IASDKMRAID-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE60C2AF27D5B3590078FC0A /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		FE60C2B027D5B3590078FC0A /* BUCNAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUCNAuxiliary.framework; sourceTree = "<group>"; };
+		FE60C2B127D5B3590078FC0A /* BUVAAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUVAAuxiliary.framework; sourceTree = "<group>"; };
+		FE60C2B227D5B3590078FC0A /* ISPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISPangleAdapter.framework; sourceTree = "<group>"; };
+		FE60C2B327D5B3590078FC0A /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		FE60C2B527D5B3590078FC0A /* ISAppLovinAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAppLovinAdapter.framework; sourceTree = "<group>"; };
+		FE60C2B627D5B3590078FC0A /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
+		FE60C2B827D5B3590078FC0A /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		FE60C2B927D5B3590078FC0A /* ISVungleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISVungleAdapter.framework; sourceTree = "<group>"; };
+		FE60C2BB27D5B3590078FC0A /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
+		FE60C2BD27D5B3590078FC0A /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		FE60C2BE27D5B3590078FC0A /* ISUnityAdsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISUnityAdsAdapter.framework; sourceTree = "<group>"; };
+		FE60C2C027D5B3590078FC0A /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		FE60C2C127D5B3590078FC0A /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		FE60C2C227D5B3590078FC0A /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		FE60C2C327D5B3590078FC0A /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		FE60C2C427D5B3590078FC0A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FE60C2C527D5B3590078FC0A /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
+		FE60C2C627D5B3590078FC0A /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
+		FE60C2C827D5B3590078FC0A /* LineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineSDK.framework; sourceTree = "<group>"; };
+		FE60C2C927D5B3590078FC0A /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		FE60C2CA27D5B3590078FC0A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		FE60C2CC27D5B3590078FC0A /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		FE60C2CD27D5B3590078FC0A /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		FE60C2CF27D5B3590078FC0A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FE60C2D027D5B3590078FC0A /* FBAEMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAEMKit.framework; sourceTree = "<group>"; };
+		FE60C2D127D5B3590078FC0A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FE60C2D227D5B3590078FC0A /* FBSDKCoreKit_Basics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit_Basics.framework; sourceTree = "<group>"; };
+		FE60C2D327D5B3590078FC0A /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
+		FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IASDKResources.bundle; sourceTree = "<group>"; };
+		FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YankeeSDK.framework; sourceTree = "<group>"; };
+		FE60C2D627D5B3590078FC0A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		FE60C2D727D5B3590078FC0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE60C2D827D5B3590078FC0A /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		FE60C2D927D5B3590078FC0A /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		FE60C2DA27D5B3590078FC0A /* VKSdkResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VKSdkResources.bundle; sourceTree = "<group>"; };
+		FE60C2DB27D5B3590078FC0A /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
+		FE60C2DD27D5B3590078FC0A /* FZDHTJW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZDHTJW.TTF; sourceTree = "<group>"; };
+		FE60C2DE27D5B3590078FC0A /* ARIALN1.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARIALN1.TTF; sourceTree = "<group>"; };
+		FE60C2DF27D5B3590078FC0A /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
+		FE60C2E027D5B3590078FC0A /* Neo_Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neo_Sans.ttf; sourceTree = "<group>"; };
+		FE60C2E127D5B3590078FC0A /* A-OTF-FOLKPRO-MEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A-OTF-FOLKPRO-MEDIUM.OTF"; sourceTree = "<group>"; };
+		FE60C2E227D5B3590078FC0A /* ARABTYPE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARABTYPE.TTF; sourceTree = "<group>"; };
+		FE60C2E327D5B3590078FC0A /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
+		FE60C2E427D5B3590078FC0A /* LayijiMahaniyomV105.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LayijiMahaniyomV105.ttf; sourceTree = "<group>"; };
+		FE60C2E527D5B3590078FC0A /* FZDHTJW(1).TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZDHTJW(1).TTF"; sourceTree = "<group>"; };
+		FE60C32727D5B39A0078FC0A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FE60C32927D5B3A70078FC0A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FE60C32B27D5B3AF0078FC0A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FE60C32D27D5B74B0078FC0A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FE60C32F27D5B75B0078FC0A /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		FE60C33127D5B7680078FC0A /* PaperDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaperDemo.entitlements; sourceTree = "<group>"; };
+		FE60C33227D5B7DF0078FC0A /* PaperDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaperDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE60C33327D5B7E00078FC0A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FE60C33527D5B8000078FC0A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FE60C33727D5B8080078FC0A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FE60C33927D5B8140078FC0A /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FE60C33B27D5B8FF0078FC0A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FE60C33D27D5B9120078FC0A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		FE60C33F27D5B91F0078FC0A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		FE60C34127D5B9270078FC0A /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		FE60C34327D5B93A0078FC0A /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		FE60C34527D5B9450078FC0A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FE60C34727D5B95E0078FC0A /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE60C26A27D5AFEC0078FC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60C34827D5B95E0078FC0A /* libiconv.2.4.0.tbd in Frameworks */,
+				FE60C34627D5B9450078FC0A /* libresolv.tbd in Frameworks */,
+				FE60C34427D5B93A0078FC0A /* libbz2.1.0.tbd in Frameworks */,
+				FE60C34227D5B9270078FC0A /* libc++abi.tbd in Frameworks */,
+				FE60C34027D5B91F0078FC0A /* LocalAuthentication.framework in Frameworks */,
+				FE60C33E27D5B9120078FC0A /* SafariServices.framework in Frameworks */,
+				FE60C33027D5B75B0078FC0A /* AuthenticationServices.framework in Frameworks */,
+				FE60C33C27D5B8FF0078FC0A /* SystemConfiguration.framework in Frameworks */,
+				FE60C33A27D5B8140078FC0A /* AppTrackingTransparency.framework in Frameworks */,
+				FE60C33827D5B8080078FC0A /* Accelerate.framework in Frameworks */,
+				FE60C33627D5B8000078FC0A /* libc++.tbd in Frameworks */,
+				FE60C32E27D5B74B0078FC0A /* libsqlite3.0.tbd in Frameworks */,
+				FE60C32C27D5B3AF0078FC0A /* Security.framework in Frameworks */,
+				FE60C32A27D5B3A80078FC0A /* CoreTelephony.framework in Frameworks */,
+				FE60C32827D5B39A0078FC0A /* iAd.framework in Frameworks */,
+				FE60C2FB27D5B35B0078FC0A /* ISPangleAdapter.framework in Frameworks */,
+				FE60C2E727D5B3590078FC0A /* AppsFlyerLib.framework in Frameworks */,
+				FE60C30627D5B35C0078FC0A /* PromisesObjC.framework in Frameworks */,
+				FE60C30427D5B35C0078FC0A /* GoogleAppMeasurement.framework in Frameworks */,
+				FE60C2F727D5B35A0078FC0A /* IASDKMRAID.framework in Frameworks */,
+				FE60C2EF27D5B35A0078FC0A /* VKSdkFramework.framework in Frameworks */,
+				FE60C2EA27D5B35A0078FC0A /* FirebaseRemoteConfig.framework in Frameworks */,
+				FE60C2F127D5B35A0078FC0A /* ISTapjoyAdapter.framework in Frameworks */,
+				FE60C30E27D5B35D0078FC0A /* GoogleSignInDependencies.framework in Frameworks */,
+				FE60C31327D5B35D0078FC0A /* FBSDKCoreKit_Basics.framework in Frameworks */,
+				FE60C31627D5B35D0078FC0A /* YankeeSDK.framework in Frameworks */,
+				FE60C2FA27D5B35B0078FC0A /* BUVAAuxiliary.framework in Frameworks */,
+				FE60C30027D5B35B0078FC0A /* ISVungleAdapter.framework in Frameworks */,
+				FE60C2ED27D5B35A0078FC0A /* FirebaseABTesting.framework in Frameworks */,
+				FE60C30327D5B35B0078FC0A /* ISUnityAdsAdapter.framework in Frameworks */,
+				FE60C30927D5B35D0078FC0A /* UserMessagingPlatform.framework in Frameworks */,
+				FE60C2E827D5B35A0078FC0A /* GoogleDataTransport.framework in Frameworks */,
+				FE60C30727D5B35C0078FC0A /* nanopb.framework in Frameworks */,
+				FE60C30F27D5B35D0078FC0A /* GoogleSignIn.framework in Frameworks */,
+				FE60C2F927D5B35B0078FC0A /* BUCNAuxiliary.framework in Frameworks */,
+				FE60C2F227D5B35A0078FC0A /* ISFacebookAdapter.framework in Frameworks */,
+				FE60C31127D5B35D0078FC0A /* FBAEMKit.framework in Frameworks */,
+				FE60C30B27D5B35D0078FC0A /* LineSDK.framework in Frameworks */,
+				FE60C2F027D5B35A0078FC0A /* Tapjoy.framework in Frameworks */,
+				FE60C2E927D5B35A0078FC0A /* FirebaseCore.framework in Frameworks */,
+				FE60C31027D5B35D0078FC0A /* FBSDKLoginKit.framework in Frameworks */,
+				FE60C30127D5B35B0078FC0A /* IronSource.framework in Frameworks */,
+				FE60C31227D5B35D0078FC0A /* FBSDKCoreKit.framework in Frameworks */,
+				FE60C2F627D5B35A0078FC0A /* ISFyberAdapter.framework in Frameworks */,
+				FE60C2F527D5B35A0078FC0A /* IASDKVideo.framework in Frameworks */,
+				FE60C2EE27D5B35A0078FC0A /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				FE60C2EB27D5B35A0078FC0A /* FirebaseAnalytics.framework in Frameworks */,
+				FE60C30527D5B35C0078FC0A /* GoogleUtilities.framework in Frameworks */,
+				FE60C2EC27D5B35A0078FC0A /* FirebaseInstallations.framework in Frameworks */,
+				FE60C2FC27D5B35B0078FC0A /* BUFoundation.framework in Frameworks */,
+				FE60C2F427D5B35A0078FC0A /* IASDKCore.framework in Frameworks */,
+				FE60C2FE27D5B35B0078FC0A /* AppLovinSDK.framework in Frameworks */,
+				FE60C30227D5B35B0078FC0A /* UnityAds.framework in Frameworks */,
+				FE60C2FD27D5B35B0078FC0A /* ISAppLovinAdapter.framework in Frameworks */,
+				FE60C2F327D5B35A0078FC0A /* FBAudienceNetwork.framework in Frameworks */,
+				FE60C30A27D5B35D0078FC0A /* ISAdMobAdapter.framework in Frameworks */,
+				FE60C2FF27D5B35B0078FC0A /* VungleSDK.framework in Frameworks */,
+				FE60C30827D5B35D0078FC0A /* GoogleMobileAds.framework in Frameworks */,
+				FE60C2F827D5B35A0078FC0A /* BUAdSDK.framework in Frameworks */,
+				FE60C31427D5B35D0078FC0A /* PearSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE60C26427D5AFEC0078FC0A = {
+			isa = PBXGroup;
+			children = (
+				FE60C26F27D5AFEC0078FC0A /* PaperDemo */,
+				FE60C26E27D5AFEC0078FC0A /* Products */,
+				FE60C32627D5B3990078FC0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE60C26E27D5AFEC0078FC0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C26D27D5AFEC0078FC0A /* PaperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE60C26F27D5AFEC0078FC0A /* PaperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C33127D5B7680078FC0A /* PaperDemo.entitlements */,
+				FE60C28927D5B3590078FC0A /* libs */,
+				FE60C27027D5AFEC0078FC0A /* AppDelegate.h */,
+				FE60C27127D5AFEC0078FC0A /* AppDelegate.m */,
+				FE60C27627D5AFEC0078FC0A /* ViewController.h */,
+				FE60C27727D5AFEC0078FC0A /* ViewController.m */,
+				FE60C28127D5AFEE0078FC0A /* Info.plist */,
+				FE60C28227D5AFEE0078FC0A /* main.m */,
+				FE60C27C27D5AFEE0078FC0A /* Assets.xcassets */,
+				FE60C27927D5AFEC0078FC0A /* Main.storyboard */,
+				FE60C27E27D5AFEE0078FC0A /* LaunchScreen.storyboard */,
+				FE60C33327D5B7E00078FC0A /* File.swift */,
+				FE60C33227D5B7DF0078FC0A /* PaperDemo-Bridging-Header.h */,
+			);
+			path = PaperDemo;
+			sourceTree = "<group>";
+		};
+		FE60C28927D5B3590078FC0A /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */,
+				FE60C28B27D5B3590078FC0A /* ThirdAPI */,
+				FE60C2D327D5B3590078FC0A /* PearSDK.framework */,
+				FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */,
+				FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */,
+				FE60C2D627D5B3590078FC0A /* Settings.bundle */,
+				FE60C2D727D5B3590078FC0A /* GoogleService-Info.plist */,
+				FE60C2D827D5B3590078FC0A /* GoogleSignIn.bundle */,
+				FE60C2D927D5B3590078FC0A /* BUAdSDK.bundle */,
+				FE60C2DA27D5B3590078FC0A /* VKSdkResources.bundle */,
+				FE60C2DB27D5B3590078FC0A /* AppLovinSDKResources.bundle */,
+				FE60C2DC27D5B3590078FC0A /* Fonts */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		FE60C28B27D5B3590078FC0A /* ThirdAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C28C27D5B3590078FC0A /* AF6.5.2 */,
+				FE60C28E27D5B3590078FC0A /* Fire8.7.0 */,
+				FE60C29727D5B3590078FC0A /* VKSDK */,
+				FE60C29927D5B3590078FC0A /* IS */,
+				FE60C2C727D5B3590078FC0A /* LineSDK */,
+				FE60C2CB27D5B3590078FC0A /* google_signin5.0.2 */,
+				FE60C2CE27D5B3590078FC0A /* FB12.1.0 */,
+			);
+			path = ThirdAPI;
+			sourceTree = "<group>";
+		};
+		FE60C28C27D5B3590078FC0A /* AF6.5.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C28D27D5B3590078FC0A /* AppsFlyerLib.framework */,
+			);
+			path = AF6.5.2;
+			sourceTree = "<group>";
+		};
+		FE60C28E27D5B3590078FC0A /* Fire8.7.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C28F27D5B3590078FC0A /* GoogleDataTransport.framework */,
+				FE60C29027D5B3590078FC0A /* FirebaseCore.framework */,
+				FE60C29127D5B3590078FC0A /* FirebaseRemoteConfig.framework */,
+				FE60C29227D5B3590078FC0A /* FirebaseAnalytics.framework */,
+				FE60C29327D5B3590078FC0A /* Firebase.h */,
+				FE60C29427D5B3590078FC0A /* FirebaseInstallations.framework */,
+				FE60C29527D5B3590078FC0A /* FirebaseABTesting.framework */,
+				FE60C29627D5B3590078FC0A /* FirebaseCoreDiagnostics.framework */,
+			);
+			path = Fire8.7.0;
+			sourceTree = "<group>";
+		};
+		FE60C29727D5B3590078FC0A /* VKSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C29827D5B3590078FC0A /* VKSdkFramework.framework */,
+			);
+			path = VKSDK;
+			sourceTree = "<group>";
+		};
+		FE60C29927D5B3590078FC0A /* IS */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C29A27D5B3590078FC0A /* TapjoyAdapter 4.1.18 */,
+				FE60C29D27D5B3590078FC0A /* FacebookAdapter4.3.29 */,
+				FE60C2A027D5B3590078FC0A /* Fyber4.3.19 */,
+				FE60C2AE27D5B3590078FC0A /* Pangle4.3.8 */,
+				FE60C2B427D5B3590078FC0A /* AppLovinAdapter4.3.28 */,
+				FE60C2B727D5B3590078FC0A /* VungleAdapter4.3.13 */,
+				FE60C2BA27D5B3590078FC0A /* IronSource7.1.10 */,
+				FE60C2BC27D5B3590078FC0A /* UnityAdsAdapter 4.3.13 */,
+				FE60C2BF27D5B3590078FC0A /* AdMob4.3.27 */,
+			);
+			path = IS;
+			sourceTree = "<group>";
+		};
+		FE60C29A27D5B3590078FC0A /* TapjoyAdapter 4.1.18 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C29B27D5B3590078FC0A /* Tapjoy.framework */,
+				FE60C29C27D5B3590078FC0A /* ISTapjoyAdapter.framework */,
+			);
+			path = "TapjoyAdapter 4.1.18";
+			sourceTree = "<group>";
+		};
+		FE60C29D27D5B3590078FC0A /* FacebookAdapter4.3.29 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C29E27D5B3590078FC0A /* ISFacebookAdapter.framework */,
+				FE60C29F27D5B3590078FC0A /* FBAudienceNetwork.framework */,
+			);
+			path = FacebookAdapter4.3.29;
+			sourceTree = "<group>";
+		};
+		FE60C2A027D5B3590078FC0A /* Fyber4.3.19 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2A127D5B3590078FC0A /* IASDKCore */,
+				FE60C2A527D5B3590078FC0A /* IASDKVideo */,
+				FE60C2A927D5B3590078FC0A /* ISFyberAdapter.framework */,
+				FE60C2AA27D5B3590078FC0A /* IASDKMRAID */,
+			);
+			path = Fyber4.3.19;
+			sourceTree = "<group>";
+		};
+		FE60C2A127D5B3590078FC0A /* IASDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2A227D5B3590078FC0A /* IASDKCore.framework */,
+				FE60C2A327D5B3590078FC0A /* SwiftIntegration */,
+			);
+			path = IASDKCore;
+			sourceTree = "<group>";
+		};
+		FE60C2A327D5B3590078FC0A /* SwiftIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2A427D5B3590078FC0A /* IASDKCore-Bridging-Header.h */,
+			);
+			path = SwiftIntegration;
+			sourceTree = "<group>";
+		};
+		FE60C2A527D5B3590078FC0A /* IASDKVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2A627D5B3590078FC0A /* IASDKVideo.framework */,
+				FE60C2A727D5B3590078FC0A /* SwiftIntegration */,
+			);
+			path = IASDKVideo;
+			sourceTree = "<group>";
+		};
+		FE60C2A727D5B3590078FC0A /* SwiftIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2A827D5B3590078FC0A /* IASDKVideo-Bridging-Header.h */,
+			);
+			path = SwiftIntegration;
+			sourceTree = "<group>";
+		};
+		FE60C2AA27D5B3590078FC0A /* IASDKMRAID */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2AB27D5B3590078FC0A /* IASDKMRAID.framework */,
+				FE60C2AC27D5B3590078FC0A /* SwiftIntegration */,
+			);
+			path = IASDKMRAID;
+			sourceTree = "<group>";
+		};
+		FE60C2AC27D5B3590078FC0A /* SwiftIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2AD27D5B3590078FC0A /* IASDKMRAID-Bridging-Header.h */,
+			);
+			path = SwiftIntegration;
+			sourceTree = "<group>";
+		};
+		FE60C2AE27D5B3590078FC0A /* Pangle4.3.8 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2AF27D5B3590078FC0A /* BUAdSDK.framework */,
+				FE60C2B027D5B3590078FC0A /* BUCNAuxiliary.framework */,
+				FE60C2B127D5B3590078FC0A /* BUVAAuxiliary.framework */,
+				FE60C2B227D5B3590078FC0A /* ISPangleAdapter.framework */,
+				FE60C2B327D5B3590078FC0A /* BUFoundation.framework */,
+			);
+			path = Pangle4.3.8;
+			sourceTree = "<group>";
+		};
+		FE60C2B427D5B3590078FC0A /* AppLovinAdapter4.3.28 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2B527D5B3590078FC0A /* ISAppLovinAdapter.framework */,
+				FE60C2B627D5B3590078FC0A /* AppLovinSDK.framework */,
+			);
+			path = AppLovinAdapter4.3.28;
+			sourceTree = "<group>";
+		};
+		FE60C2B727D5B3590078FC0A /* VungleAdapter4.3.13 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2B827D5B3590078FC0A /* VungleSDK.framework */,
+				FE60C2B927D5B3590078FC0A /* ISVungleAdapter.framework */,
+			);
+			path = VungleAdapter4.3.13;
+			sourceTree = "<group>";
+		};
+		FE60C2BA27D5B3590078FC0A /* IronSource7.1.10 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2BB27D5B3590078FC0A /* IronSource.framework */,
+			);
+			path = IronSource7.1.10;
+			sourceTree = "<group>";
+		};
+		FE60C2BC27D5B3590078FC0A /* UnityAdsAdapter 4.3.13 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2BD27D5B3590078FC0A /* UnityAds.framework */,
+				FE60C2BE27D5B3590078FC0A /* ISUnityAdsAdapter.framework */,
+			);
+			path = "UnityAdsAdapter 4.3.13";
+			sourceTree = "<group>";
+		};
+		FE60C2BF27D5B3590078FC0A /* AdMob4.3.27 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2C027D5B3590078FC0A /* GoogleAppMeasurement.framework */,
+				FE60C2C127D5B3590078FC0A /* GoogleUtilities.framework */,
+				FE60C2C227D5B3590078FC0A /* PromisesObjC.framework */,
+				FE60C2C327D5B3590078FC0A /* nanopb.framework */,
+				FE60C2C427D5B3590078FC0A /* GoogleMobileAds.framework */,
+				FE60C2C527D5B3590078FC0A /* UserMessagingPlatform.framework */,
+				FE60C2C627D5B3590078FC0A /* ISAdMobAdapter.framework */,
+			);
+			path = AdMob4.3.27;
+			sourceTree = "<group>";
+		};
+		FE60C2C727D5B3590078FC0A /* LineSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2C827D5B3590078FC0A /* LineSDK.framework */,
+				FE60C2C927D5B3590078FC0A /* CHANGELOG.md */,
+				FE60C2CA27D5B3590078FC0A /* LICENSE.txt */,
+			);
+			path = LineSDK;
+			sourceTree = "<group>";
+		};
+		FE60C2CB27D5B3590078FC0A /* google_signin5.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2CC27D5B3590078FC0A /* GoogleSignInDependencies.framework */,
+				FE60C2CD27D5B3590078FC0A /* GoogleSignIn.framework */,
+			);
+			path = google_signin5.0.2;
+			sourceTree = "<group>";
+		};
+		FE60C2CE27D5B3590078FC0A /* FB12.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2CF27D5B3590078FC0A /* FBSDKLoginKit.framework */,
+				FE60C2D027D5B3590078FC0A /* FBAEMKit.framework */,
+				FE60C2D127D5B3590078FC0A /* FBSDKCoreKit.framework */,
+				FE60C2D227D5B3590078FC0A /* FBSDKCoreKit_Basics.framework */,
+			);
+			path = FB12.1.0;
+			sourceTree = "<group>";
+		};
+		FE60C2DC27D5B3590078FC0A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C2DD27D5B3590078FC0A /* FZDHTJW.TTF */,
+				FE60C2DE27D5B3590078FC0A /* ARIALN1.TTF */,
+				FE60C2DF27D5B3590078FC0A /* NanumGothic.ttf */,
+				FE60C2E027D5B3590078FC0A /* Neo_Sans.ttf */,
+				FE60C2E127D5B3590078FC0A /* A-OTF-FOLKPRO-MEDIUM.OTF */,
+				FE60C2E227D5B3590078FC0A /* ARABTYPE.TTF */,
+				FE60C2E327D5B3590078FC0A /* arial.ttf */,
+				FE60C2E427D5B3590078FC0A /* LayijiMahaniyomV105.ttf */,
+				FE60C2E527D5B3590078FC0A /* FZDHTJW(1).TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FE60C32627D5B3990078FC0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C34727D5B95E0078FC0A /* libiconv.2.4.0.tbd */,
+				FE60C34527D5B9450078FC0A /* libresolv.tbd */,
+				FE60C34327D5B93A0078FC0A /* libbz2.1.0.tbd */,
+				FE60C34127D5B9270078FC0A /* libc++abi.tbd */,
+				FE60C33F27D5B91F0078FC0A /* LocalAuthentication.framework */,
+				FE60C33D27D5B9120078FC0A /* SafariServices.framework */,
+				FE60C33B27D5B8FF0078FC0A /* SystemConfiguration.framework */,
+				FE60C33927D5B8140078FC0A /* AppTrackingTransparency.framework */,
+				FE60C33727D5B8080078FC0A /* Accelerate.framework */,
+				FE60C33527D5B8000078FC0A /* libc++.tbd */,
+				FE60C32F27D5B75B0078FC0A /* AuthenticationServices.framework */,
+				FE60C32D27D5B74B0078FC0A /* libsqlite3.0.tbd */,
+				FE60C32B27D5B3AF0078FC0A /* Security.framework */,
+				FE60C32927D5B3A70078FC0A /* CoreTelephony.framework */,
+				FE60C32727D5B39A0078FC0A /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE60C26C27D5AFEC0078FC0A /* PaperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE60C28627D5AFEE0078FC0A /* Build configuration list for PBXNativeTarget "PaperDemo" */;
+			buildPhases = (
+				FE60C26927D5AFEC0078FC0A /* Sources */,
+				FE60C26A27D5AFEC0078FC0A /* Frameworks */,
+				FE60C26B27D5AFEC0078FC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperDemo;
+			productName = PaperDemo;
+			productReference = FE60C26D27D5AFEC0078FC0A /* PaperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE60C26527D5AFEC0078FC0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FE60C26C27D5AFEC0078FC0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = FE60C26827D5AFEC0078FC0A /* Build configuration list for PBXProject "PaperDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE60C26427D5AFEC0078FC0A;
+			productRefGroup = FE60C26E27D5AFEC0078FC0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE60C26C27D5AFEC0078FC0A /* PaperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE60C26B27D5AFEC0078FC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60C32427D5B35D0078FC0A /* LayijiMahaniyomV105.ttf in Resources */,
+				FE60C32127D5B35D0078FC0A /* A-OTF-FOLKPRO-MEDIUM.OTF in Resources */,
+				FE60C31727D5B35D0078FC0A /* Settings.bundle in Resources */,
+				FE60C30D27D5B35D0078FC0A /* LICENSE.txt in Resources */,
+				FE60C31827D5B35D0078FC0A /* GoogleService-Info.plist in Resources */,
+				FE60C31C27D5B35D0078FC0A /* AppLovinSDKResources.bundle in Resources */,
+				FE60C28027D5AFEE0078FC0A /* LaunchScreen.storyboard in Resources */,
+				FE60C32327D5B35D0078FC0A /* arial.ttf in Resources */,
+				FE60C30C27D5B35D0078FC0A /* CHANGELOG.md in Resources */,
+				FE60C31D27D5B35D0078FC0A /* FZDHTJW.TTF in Resources */,
+				FE60C27D27D5AFEE0078FC0A /* Assets.xcassets in Resources */,
+				FE60C31F27D5B35D0078FC0A /* NanumGothic.ttf in Resources */,
+				FE60C31927D5B35D0078FC0A /* GoogleSignIn.bundle in Resources */,
+				FE60C31B27D5B35D0078FC0A /* VKSdkResources.bundle in Resources */,
+				FE60C32227D5B35D0078FC0A /* ARABTYPE.TTF in Resources */,
+				FE60C27B27D5AFEC0078FC0A /* Main.storyboard in Resources */,
+				FE60C31E27D5B35D0078FC0A /* ARIALN1.TTF in Resources */,
+				FE60C2E627D5B3590078FC0A /* GolfBundle.bundle in Resources */,
+				FE60C31527D5B35D0078FC0A /* IASDKResources.bundle in Resources */,
+				FE60C31A27D5B35D0078FC0A /* BUAdSDK.bundle in Resources */,
+				FE60C32027D5B35D0078FC0A /* Neo_Sans.ttf in Resources */,
+				FE60C32527D5B35D0078FC0A /* FZDHTJW(1).TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE60C26927D5AFEC0078FC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60C27827D5AFEC0078FC0A /* ViewController.m in Sources */,
+				FE60C33427D5B7E00078FC0A /* File.swift in Sources */,
+				FE60C27227D5AFEC0078FC0A /* AppDelegate.m in Sources */,
+				FE60C28327D5AFEE0078FC0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE60C27927D5AFEC0078FC0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60C27A27D5AFEC0078FC0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE60C27E27D5AFEE0078FC0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60C27F27D5AFEE0078FC0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE60C28427D5AFEE0078FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE60C28527D5AFEE0078FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE60C28727D5AFEE0078FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PaperDemo/PaperDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6WJ4DK4A4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/AF6.5.2",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/Fire8.7.0",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/VKSDK",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/TapjoyAdapter\\ 4.1.18",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/TapjoyAdapter\\ 4.1.18",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/FacebookAdapter4.3.29",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19/IASDKCore",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19/IASDKVideo",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19/IASDKMRAID",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Pangle4.3.8",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/AppLovinAdapter4.3.28",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/VungleAdapter4.3.13",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/IronSource7.1.10",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/UnityAdsAdapter\\ 4.3.13",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/UnityAdsAdapter\\ 4.3.13",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/AdMob4.3.27",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/LineSDK",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/google_signin5.0.2",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/FB12.1.0",
+					"$(PROJECT_DIR)/PaperDemo/libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaperDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许访问相机?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允许访问你的位置?";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许访问相册?";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "需要你允许使用广告标识符,以便追踪广告信息和推送.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyun.PaperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PaperDemo/PaperDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE60C28827D5AFEE0078FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PaperDemo/PaperDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6WJ4DK4A4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/AF6.5.2",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/Fire8.7.0",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/VKSDK",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/TapjoyAdapter\\ 4.1.18",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/TapjoyAdapter\\ 4.1.18",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/FacebookAdapter4.3.29",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19/IASDKCore",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19/IASDKVideo",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Fyber4.3.19/IASDKMRAID",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/Pangle4.3.8",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/AppLovinAdapter4.3.28",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/VungleAdapter4.3.13",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/IronSource7.1.10",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/UnityAdsAdapter\\ 4.3.13",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/UnityAdsAdapter\\ 4.3.13",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/IS/AdMob4.3.27",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/LineSDK",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/google_signin5.0.2",
+					"$(PROJECT_DIR)/PaperDemo/libs/ThirdAPI/FB12.1.0",
+					"$(PROJECT_DIR)/PaperDemo/libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaperDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许访问相机?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允许访问你的位置?";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许访问相册?";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "需要你允许使用广告标识符,以便追踪广告信息和推送.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyun.PaperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PaperDemo/PaperDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE60C26827D5AFEC0078FC0A /* Build configuration list for PBXProject "PaperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60C28427D5AFEE0078FC0A /* Debug */,
+				FE60C28527D5AFEE0078FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE60C28627D5AFEE0078FC0A /* Build configuration list for PBXNativeTarget "PaperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60C28727D5AFEE0078FC0A /* Debug */,
+				FE60C28827D5AFEE0078FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE60C26527D5AFEC0078FC0A /* Project object */;
+}
