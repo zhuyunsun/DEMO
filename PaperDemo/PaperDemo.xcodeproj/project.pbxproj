@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE103849280D0576003496CB /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE103848280D0576003496CB /* PearSDK.framework */; };
 		FE60C27227D5AFEC0078FC0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27127D5AFEC0078FC0A /* AppDelegate.m */; };
 		FE60C27827D5AFEC0078FC0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27727D5AFEC0078FC0A /* ViewController.m */; };
 		FE60C27B27D5AFEC0078FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27927D5AFEC0078FC0A /* Main.storyboard */; };
@@ -59,7 +60,6 @@
 		FE60C31127D5B35D0078FC0A /* FBAEMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D027D5B3590078FC0A /* FBAEMKit.framework */; };
 		FE60C31227D5B35D0078FC0A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D127D5B3590078FC0A /* FBSDKCoreKit.framework */; };
 		FE60C31327D5B35D0078FC0A /* FBSDKCoreKit_Basics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D227D5B3590078FC0A /* FBSDKCoreKit_Basics.framework */; };
-		FE60C31427D5B35D0078FC0A /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D327D5B3590078FC0A /* PearSDK.framework */; };
 		FE60C31527D5B35D0078FC0A /* IASDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */; };
 		FE60C31627D5B35D0078FC0A /* YankeeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */; };
 		FE60C31727D5B35D0078FC0A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C2D627D5B3590078FC0A /* Settings.bundle */; };
@@ -96,6 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE103848280D0576003496CB /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
 		FE60C26D27D5AFEC0078FC0A /* PaperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE60C27027D5AFEC0078FC0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE60C27127D5AFEC0078FC0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,7 +157,6 @@
 		FE60C2D027D5B3590078FC0A /* FBAEMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAEMKit.framework; sourceTree = "<group>"; };
 		FE60C2D127D5B3590078FC0A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FE60C2D227D5B3590078FC0A /* FBSDKCoreKit_Basics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit_Basics.framework; sourceTree = "<group>"; };
-		FE60C2D327D5B3590078FC0A /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
 		FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IASDKResources.bundle; sourceTree = "<group>"; };
 		FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YankeeSDK.framework; sourceTree = "<group>"; };
 		FE60C2D627D5B3590078FC0A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -246,6 +246,7 @@
 				FE60C2F527D5B35A0078FC0A /* IASDKVideo.framework in Frameworks */,
 				FE60C2EE27D5B35A0078FC0A /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				FE60C2EB27D5B35A0078FC0A /* FirebaseAnalytics.framework in Frameworks */,
+				FE103849280D0576003496CB /* PearSDK.framework in Frameworks */,
 				FE60C30527D5B35C0078FC0A /* GoogleUtilities.framework in Frameworks */,
 				FE60C2EC27D5B35A0078FC0A /* FirebaseInstallations.framework in Frameworks */,
 				FE60C2FC27D5B35B0078FC0A /* BUFoundation.framework in Frameworks */,
@@ -258,7 +259,6 @@
 				FE60C2FF27D5B35B0078FC0A /* VungleSDK.framework in Frameworks */,
 				FE60C30827D5B35D0078FC0A /* GoogleMobileAds.framework in Frameworks */,
 				FE60C2F827D5B35A0078FC0A /* BUAdSDK.framework in Frameworks */,
-				FE60C31427D5B35D0078FC0A /* PearSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +305,9 @@
 		FE60C28927D5B3590078FC0A /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FE103848280D0576003496CB /* PearSDK.framework */,
 				FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */,
 				FE60C28B27D5B3590078FC0A /* ThirdAPI */,
-				FE60C2D327D5B3590078FC0A /* PearSDK.framework */,
 				FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */,
 				FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */,
 				FE60C2D627D5B3590078FC0A /* Settings.bundle */,

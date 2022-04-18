@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 FOUNDATION_STATIC_INLINE void SDK_Version(){
-    NSString *version = @"1.0.4";
-    NSLog(@"MORE__SDK版本2022.3.07更新 = %@",version);
+    NSString *version = @"1.0.5";
+    NSLog(@"MORE__SDK版本2022.4.18更新 = %@",version);
 }
 typedef NS_ENUM(NSUInteger,MYLanguageType){
     LanguageTypeHANT = 1,//繁体
@@ -64,6 +64,7 @@ UIKIT_STATIC_INLINE NSString* op(){
 }
 
 typedef void(^blockLanguage)(MYLanguageType myType,NSString *gameid,NSUInteger state);//state 0表示展示语言选择界面,1表示不展示.
+typedef void(^newBolckLanguage)(MYLanguageType myType,NSString *gameid);
 @protocol LoginDelegate,ReDelegate;
 @interface PearCommon : NSObject
 @property(nonatomic,weak)id <LoginDelegate> logDelegate;
@@ -155,8 +156,10 @@ typedef void(^blockLanguage)(MYLanguageType myType,NSString *gameid,NSUInteger s
 
 //游戏语言选择:登录界面传NO,bm(返回当前选择语言和对应语言的gameid)
 -(void)showLanguageViewFrom:(BOOL)from block:(blockLanguage)bm;
-//重新选择语言
+//重新选择语言(有UI界面)
 -(void)resetLanguage;
+//重新选择语言(沒有UI界面),由CP传入对应的语言字段:简体(HANT),繁体(HANT),英文(EN),日文(JA)
+-(void)setNewLanguage:(NSString *)language newbl:(newBolckLanguage)newBm;
 -(MYLanguageType)getCurrentLanguage;
 
 //内购产品价格获取

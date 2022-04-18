@@ -40,7 +40,7 @@
     dataSource = @[@"登录(韩文首次会有协议UI)",@"利用規約(Web)",@"引继弹窗(UI)",@"IM(Web)",@"绑定界面(UI)",
                    @"公告(Web)",@"概率查询(Web)",@"绑定信息(数据)",@"好评(系统弹窗)",
                    @"支付(内购,日文的有UI)",@"分享(系统级别)",
-                   @"展示激励广告(广告)",@"当前SDK语言(数据)",@"重新选择语言(UI)",@"绑定手机(UI)",
+                   @"展示激励广告(广告)",@"当前SDK语言(数据)",@"重新选择语言(由cp传入对应的语言字段)",@"绑定手机(UI)",
                    @"强更样式1(UI)",@"强更样式2(UI)"];
 
     myTableView = [[UITableView alloc]init];
@@ -137,7 +137,11 @@
         [[PearCommon common] getCurrentLanguage];
     }
     if (row == 13) {
-        [[PearCommon common] resetLanguage];
+//        [[PearCommon common] resetLanguage];
+        [[PearCommon common] setNewLanguage:@"EN" newbl:^(MYLanguageType myType, NSString * _Nonnull gameid) {
+            msgTextView.text = @"重新选择了语言";
+        }];
+
     }
     if (row == 14) {
         [[PearCommon common] bindPhone];
