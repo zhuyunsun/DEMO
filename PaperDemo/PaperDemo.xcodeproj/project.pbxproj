@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE103849280D0576003496CB /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE103848280D0576003496CB /* PearSDK.framework */; };
+		FE28BD22281BB7D40006C787 /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE28BD21281BB7D40006C787 /* PearSDK.framework */; };
 		FE60C27227D5AFEC0078FC0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27127D5AFEC0078FC0A /* AppDelegate.m */; };
 		FE60C27827D5AFEC0078FC0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27727D5AFEC0078FC0A /* ViewController.m */; };
 		FE60C27B27D5AFEC0078FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27927D5AFEC0078FC0A /* Main.storyboard */; };
@@ -96,7 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE103848280D0576003496CB /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
+		FE28BD21281BB7D40006C787 /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
 		FE60C26D27D5AFEC0078FC0A /* PaperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE60C27027D5AFEC0078FC0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE60C27127D5AFEC0078FC0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 				FE60C2F527D5B35A0078FC0A /* IASDKVideo.framework in Frameworks */,
 				FE60C2EE27D5B35A0078FC0A /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				FE60C2EB27D5B35A0078FC0A /* FirebaseAnalytics.framework in Frameworks */,
-				FE103849280D0576003496CB /* PearSDK.framework in Frameworks */,
+				FE28BD22281BB7D40006C787 /* PearSDK.framework in Frameworks */,
 				FE60C30527D5B35C0078FC0A /* GoogleUtilities.framework in Frameworks */,
 				FE60C2EC27D5B35A0078FC0A /* FirebaseInstallations.framework in Frameworks */,
 				FE60C2FC27D5B35B0078FC0A /* BUFoundation.framework in Frameworks */,
@@ -305,7 +305,7 @@
 		FE60C28927D5B3590078FC0A /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FE103848280D0576003496CB /* PearSDK.framework */,
+				FE28BD21281BB7D40006C787 /* PearSDK.framework */,
 				FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */,
 				FE60C28B27D5B3590078FC0A /* ThirdAPI */,
 				FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */,

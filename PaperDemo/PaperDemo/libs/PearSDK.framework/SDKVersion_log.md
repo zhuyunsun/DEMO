@@ -1,4 +1,12 @@
 ##  SDK版本记录(main)
+1.0.8 --2022.4.29
+1,修改重新选择语言接口
+1.0.7 --2022.4.26
+1,补充SDK打点
+1.0.6 --2022.4.25
+1,修復除了日語,其他語言不彈idfa的問題(iOS15的延遲bug)
+2,該遊戲當前接入了日語和英語.
+3,補充Info.plist  Advertising attribution report endpoint URL https://appsflyer-skadnetwork.com/
 1.0.5 --2022.4.18
 1,修改重新选择语言接口
 

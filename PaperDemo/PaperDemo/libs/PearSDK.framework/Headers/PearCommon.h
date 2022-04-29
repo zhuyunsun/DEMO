@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 FOUNDATION_STATIC_INLINE void SDK_Version(){
-    NSString *version = @"1.0.5";
-    NSLog(@"MORE__SDK版本2022.4.18更新 = %@",version);
+    NSString *version = @"1.0.8";
+    NSLog(@"MORE__SDK版本2022.4.29更新 = %@",version);
 }
 typedef NS_ENUM(NSUInteger,MYLanguageType){
     LanguageTypeHANT = 1,//繁体
@@ -43,14 +43,14 @@ typedef void(^CompleteResult)(NSDictionary * result,NSString * state,NSString * 
 typedef void(^payResult)(NSString * state,NSInteger iosBackCode);
 
 //打点事件,必接;eventName
-UIKIT_STATIC_INLINE NSString* game_logined(){
-    return @"game_login_completed";//登入遊戲:点击选服界面登入游戏(點選登入畫面按鈕開始遊戲按鈕)
-}
+//UIKIT_STATIC_INLINE NSString* game_logined(){
+//    return @"game_login_completed";//登入遊戲:点击选服界面登入游戏(點選登入畫面按鈕開始遊戲按鈕)
+//}
 UIKIT_STATIC_INLINE NSString* role_show(){
-    return @"role_completed";//到達選角頁面:选择角色
+    return @"role_completed1";//到達選角頁面:选择角色
 }
 UIKIT_STATIC_INLINE NSString* role_show2(){
-    return @"role_completed_2";//角色生成完成:點選角色頁面的strat按鈕
+    return @"role_completed2";//輸入名稱完成創角
 }
 
 UIKIT_STATIC_INLINE NSString* enter_show(){
@@ -59,9 +59,14 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 UIKIT_STATIC_INLINE NSString* level_up(){
     return @"level_up";//角色升级
 }
-UIKIT_STATIC_INLINE NSString* op(){
-    return @"op";//播放開頭動畫
+//guide_start
+UIKIT_STATIC_INLINE NSString* guide_start(){
+    return @"guide_start";//成功进入游戏并开始新手引导
 }
+
+//UIKIT_STATIC_INLINE NSString* op(){
+//    return @"op";//播放開頭動畫
+//}
 
 typedef void(^blockLanguage)(MYLanguageType myType,NSString *gameid,NSUInteger state);//state 0表示展示语言选择界面,1表示不展示.
 typedef void(^newBolckLanguage)(MYLanguageType myType,NSString *gameid);
