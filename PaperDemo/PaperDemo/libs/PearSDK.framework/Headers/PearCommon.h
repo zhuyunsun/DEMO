@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 FOUNDATION_STATIC_INLINE void SDK_Version(){
-    NSString *version = @"1.0.8";
-    NSLog(@"MORE__SDK版本2022.4.29更新 = %@",version);
+    NSString *version = @"1.1.2";
+    NSLog(@"MORE__SDK版本2022.6.20更新 = %@",version);
 }
 typedef NS_ENUM(NSUInteger,MYLanguageType){
     LanguageTypeHANT = 1,//繁体
@@ -70,12 +70,31 @@ UIKIT_STATIC_INLINE NSString* guide_start(){
 
 typedef void(^blockLanguage)(MYLanguageType myType,NSString *gameid,NSUInteger state);//state 0表示展示语言选择界面,1表示不展示.
 typedef void(^newBolckLanguage)(MYLanguageType myType,NSString *gameid);
+
+
+//
+typedef void(^WriteblockSuccess)(void);
+typedef void(^WriteblockFail)(void);
+typedef void(^WriteblockClose)(void);
+
 @protocol LoginDelegate,ReDelegate;
 @interface PearCommon : NSObject
 @property(nonatomic,weak)id <LoginDelegate> logDelegate;
 @property(nonatomic,weak)id<ReDelegate>delegate;
 @property(nonatomic,copy)NSDictionary *msgDic;
 @property(nonatomic,copy)blockLanguage bl;
+
+
+@property(nonatomic,copy)WriteblockSuccess a1;
+@property(nonatomic,copy)WriteblockFail a2;
+@property(nonatomic,copy)WriteblockClose a3;
+
+//账号注销,要在登陆成功之后调用.(注意,成功调用了该接口之后,要重新调用登陆接口)
+-(void)writeOffAccountSuccess:(WriteblockSuccess)succcess fail:(WriteblockFail)fail close:(WriteblockClose)close;
+//是否问卷
+-(BOOL)showQuestion;
+//调查问卷
+-(void)showAnswerView;
 //召回活动启动:YES开启,NO不开启
 -(BOOL)showRecallBack;
 /*

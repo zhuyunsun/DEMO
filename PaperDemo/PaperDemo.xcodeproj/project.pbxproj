@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE28BD22281BB7D40006C787 /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE28BD21281BB7D40006C787 /* PearSDK.framework */; };
 		FE60C27227D5AFEC0078FC0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27127D5AFEC0078FC0A /* AppDelegate.m */; };
 		FE60C27827D5AFEC0078FC0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C27727D5AFEC0078FC0A /* ViewController.m */; };
 		FE60C27B27D5AFEC0078FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27927D5AFEC0078FC0A /* Main.storyboard */; };
 		FE60C27D27D5AFEE0078FC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27C27D5AFEE0078FC0A /* Assets.xcassets */; };
 		FE60C28027D5AFEE0078FC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60C27E27D5AFEE0078FC0A /* LaunchScreen.storyboard */; };
 		FE60C28327D5AFEE0078FC0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60C28227D5AFEE0078FC0A /* main.m */; };
-		FE60C2E627D5B3590078FC0A /* GolfBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */; };
 		FE60C2E727D5B3590078FC0A /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C28D27D5B3590078FC0A /* AppsFlyerLib.framework */; };
 		FE60C2E827D5B35A0078FC0A /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C28F27D5B3590078FC0A /* GoogleDataTransport.framework */; };
 		FE60C2E927D5B35A0078FC0A /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C29027D5B3590078FC0A /* FirebaseCore.framework */; };
@@ -93,10 +91,11 @@
 		FE60C34427D5B93A0078FC0A /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34327D5B93A0078FC0A /* libbz2.1.0.tbd */; };
 		FE60C34627D5B9450078FC0A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34527D5B9450078FC0A /* libresolv.tbd */; };
 		FE60C34827D5B95E0078FC0A /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60C34727D5B95E0078FC0A /* libiconv.2.4.0.tbd */; };
+		FEC1C2EC2861986F0077CA62 /* PearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC1C2EB2861986F0077CA62 /* PearSDK.framework */; };
+		FEE6F51E285C71350083638C /* GolfBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE6F51D285C71350083638C /* GolfBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE28BD21281BB7D40006C787 /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
 		FE60C26D27D5AFEC0078FC0A /* PaperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE60C27027D5AFEC0078FC0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE60C27127D5AFEC0078FC0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,7 +106,6 @@
 		FE60C27F27D5AFEE0078FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE60C28127D5AFEE0078FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE60C28227D5AFEE0078FC0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GolfBundle.bundle; sourceTree = "<group>"; };
 		FE60C28D27D5B3590078FC0A /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		FE60C28F27D5B3590078FC0A /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
 		FE60C29027D5B3590078FC0A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
@@ -192,6 +190,8 @@
 		FE60C34327D5B93A0078FC0A /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		FE60C34527D5B9450078FC0A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		FE60C34727D5B95E0078FC0A /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		FEC1C2EB2861986F0077CA62 /* PearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PearSDK.framework; sourceTree = "<group>"; };
+		FEE6F51D285C71350083638C /* GolfBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GolfBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,7 +246,7 @@
 				FE60C2F527D5B35A0078FC0A /* IASDKVideo.framework in Frameworks */,
 				FE60C2EE27D5B35A0078FC0A /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				FE60C2EB27D5B35A0078FC0A /* FirebaseAnalytics.framework in Frameworks */,
-				FE28BD22281BB7D40006C787 /* PearSDK.framework in Frameworks */,
+				FEC1C2EC2861986F0077CA62 /* PearSDK.framework in Frameworks */,
 				FE60C30527D5B35C0078FC0A /* GoogleUtilities.framework in Frameworks */,
 				FE60C2EC27D5B35A0078FC0A /* FirebaseInstallations.framework in Frameworks */,
 				FE60C2FC27D5B35B0078FC0A /* BUFoundation.framework in Frameworks */,
@@ -305,8 +305,8 @@
 		FE60C28927D5B3590078FC0A /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FE28BD21281BB7D40006C787 /* PearSDK.framework */,
-				FE60C28A27D5B3590078FC0A /* GolfBundle.bundle */,
+				FEC1C2EB2861986F0077CA62 /* PearSDK.framework */,
+				FEE6F51D285C71350083638C /* GolfBundle.bundle */,
 				FE60C28B27D5B3590078FC0A /* ThirdAPI */,
 				FE60C2D427D5B3590078FC0A /* IASDKResources.bundle */,
 				FE60C2D527D5B3590078FC0A /* YankeeSDK.framework */,
@@ -666,9 +666,9 @@
 				FE60C32227D5B35D0078FC0A /* ARABTYPE.TTF in Resources */,
 				FE60C27B27D5AFEC0078FC0A /* Main.storyboard in Resources */,
 				FE60C31E27D5B35D0078FC0A /* ARIALN1.TTF in Resources */,
-				FE60C2E627D5B3590078FC0A /* GolfBundle.bundle in Resources */,
 				FE60C31527D5B35D0078FC0A /* IASDKResources.bundle in Resources */,
 				FE60C31A27D5B35D0078FC0A /* BUAdSDK.bundle in Resources */,
+				FEE6F51E285C71350083638C /* GolfBundle.bundle in Resources */,
 				FE60C32027D5B35D0078FC0A /* Neo_Sans.ttf in Resources */,
 				FE60C32527D5B35D0078FC0A /* FZDHTJW(1).TTF in Resources */,
 			);
@@ -828,6 +828,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_ENTITLEMENTS = PaperDemo/PaperDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -890,6 +891,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_ENTITLEMENTS = PaperDemo/PaperDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

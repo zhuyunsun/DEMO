@@ -1,8 +1,9 @@
 //
 //  ViewController.m
-//  PaperDemo
+//  LianXian
 //
-//  Created by 朱运 on 2022/3/7.
+//  Created by 朱运 on 2022/1/17.
+//  Copyright © 2022 朱运. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -17,6 +18,8 @@
     
     UITextView *msgTextView;
     UIActivityIndicatorView *acti;
+    
+    NSString *la;
 }
 @property(nonatomic)BOOL loadDone;
 @end
@@ -36,12 +39,19 @@
     
     windowWidth = [UIScreen mainScreen].bounds.size.width;
     windowHeight = [UIScreen mainScreen].bounds.size.height;
-        
+    
+//    dataSource = @[@"登录(韩文首次会有UI)",@"利用規約(Web)",@"引继弹窗(UI)",@"IM(Web)",@"绑定界面(UI)",
+//                   @"公告(Web)",@"概率查询(Web)",@"SNS(Web)",@"绑定信息(数据)",@"好评(系统弹窗)",
+//                   @"老玩家召回活动(Web)",@"支付(内购,日文的有UI)",@"攻略(Web)",@"分享(系统级别)",@"初始化激励广告(广告)",
+//                   @"展示激励广告(广告)",@"当前SDK语言(数据)",@"重新选择语言(UI)",@"绑定手机(UI)",
+//                   @"用户协议(Web)",@"隐私条约(Web)",@"跳转VK(系统跳转)",@"任务接口(数据)",
+//                   @"使用条款(UI版本,内部调用,测试正常即可)",@"强更样式1(UI)",@"强更样式2(UI)"];
+    
     dataSource = @[@"登录(韩文首次会有协议UI)",@"利用規約(Web)",@"引继弹窗(UI)",@"IM(Web)",@"绑定界面(UI)",
                    @"公告(Web)",@"概率查询(Web)",@"绑定信息(数据)",@"好评(系统弹窗)",
                    @"支付(内购,日文的有UI)",@"分享(系统级别)",
                    @"展示激励广告(广告)",@"当前SDK语言(数据)",@"重新选择语言(由cp传入对应的语言字段)",@"绑定手机(UI)",
-                   @"强更样式1(UI)",@"强更样式2(UI)"];
+                   @"强更样式1(UI)",@"强更样式2(UI)",@"注销当前账号",@"问卷调查"];
 
     myTableView = [[UITableView alloc]init];
     myTableView.frame = CGRectMake(0, 0, windowWidth, windowHeight *0.9 - 64);
@@ -65,6 +75,8 @@
     
     [PearCommon common].delegate = self;
     self.loadDone = NO;
+    
+    la = @"JA";
 }
 -(void)viewDidAppear:(BOOL)animated{
 //    [acti startAnimating];
@@ -137,11 +149,11 @@
         [[PearCommon common] getCurrentLanguage];
     }
     if (row == 13) {
-//        [[PearCommon common] resetLanguage];
-        [[PearCommon common] setNewLanguage:@"EN" newbl:^(MYLanguageType myType, NSString * _Nonnull gameid) {
+        la = @"JA";
+        [[PearCommon common] setNewLanguage:la newbl:^(MYLanguageType myType, NSString * _Nonnull gameid) {
+            NSLog(@"当前用户选择的语言:myType = %lu,游戏id = %@",(unsigned long)myType,gameid);
             msgTextView.text = @"重新选择了语言";
         }];
-
     }
     if (row == 14) {
         [[PearCommon common] bindPhone];
@@ -152,8 +164,19 @@
     if (row == 16) {
         [[PearCommon common] showData2];
     }
-    
-    
+    if (row == 17) {
+        [[PearCommon common] writeOffAccountSuccess:^{
+            msgTextView.text = @"注销成功";
+        } fail:^{
+            msgTextView.text = @"注销失败";
+        } close:^{
+            msgTextView.text = @"关闭注销界面";
+        }];
+
+    }
+    if (row == 18) {
+        [[PearCommon common] showAnswerView];
+    }
     
 }
 #pragma mark ================login====================
