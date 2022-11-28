@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 FOUNDATION_STATIC_INLINE void SDK_Version(){
-    NSString *version = @"1.1.2";
-    NSLog(@"MORE__SDK版本2022.6.20更新 = %@",version);
+    NSString *version = @"1.1.5";
+    NSLog(@"MORE__SDK版本2022.9.15更新 = %@",version);
 }
 typedef NS_ENUM(NSUInteger,MYLanguageType){
     LanguageTypeHANT = 1,//繁体
